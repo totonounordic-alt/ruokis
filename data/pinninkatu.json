@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "13.11.2026 klo 15.59",
+  "updated": "13.11.2026 klo 16.25",
   "week": "2026-W46",
   "restaurants": [
     {
@@ -161,6 +161,835 @@
               "Veg"
             ],
             "price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "pizza-hut-tullintori",
+      "name": "Pizza Hut Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": "10:30–15:00",
+      "price": "14,00 €",
+      "lat": 61.49695,
+      "lon": 23.77724,
+      "distance": 86,
+      "url": "https://www.pizzahut.fi/lounas/",
+      "source": {
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
+      },
+      "menus": {
+        "0": [
+          {
+            "title": "Pan Pizza -buffet",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Syö niin paljon pizzaa kuin haluat. Sisältää alkusalaatin, hanajuoman, bread sticksit, crispy friesit, cinnamon sticksit sekä kahvin ja teen."
+          },
+          {
+            "title": "Kokoa oma lounaspizza",
+            "diets": [],
+            "price": "8,90 €",
+            "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
+          }
+        ],
+        "1": [
+          {
+            "title": "Pan Pizza -buffet",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Syö niin paljon pizzaa kuin haluat. Sisältää alkusalaatin, hanajuoman, bread sticksit, crispy friesit, cinnamon sticksit sekä kahvin ja teen."
+          },
+          {
+            "title": "Kokoa oma lounaspizza",
+            "diets": [],
+            "price": "8,90 €",
+            "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
+          }
+        ],
+        "2": [
+          {
+            "title": "Pan Pizza -buffet",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Syö niin paljon pizzaa kuin haluat. Sisältää alkusalaatin, hanajuoman, bread sticksit, crispy friesit, cinnamon sticksit sekä kahvin ja teen."
+          },
+          {
+            "title": "Kokoa oma lounaspizza",
+            "diets": [],
+            "price": "8,90 €",
+            "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
+          }
+        ],
+        "3": [
+          {
+            "title": "Pan Pizza -buffet",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Syö niin paljon pizzaa kuin haluat. Sisältää alkusalaatin, hanajuoman, bread sticksit, crispy friesit, cinnamon sticksit sekä kahvin ja teen."
+          },
+          {
+            "title": "Kokoa oma lounaspizza",
+            "diets": [],
+            "price": "8,90 €",
+            "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
+          }
+        ],
+        "4": [
+          {
+            "title": "Pan Pizza -buffet",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Syö niin paljon pizzaa kuin haluat. Sisältää alkusalaatin, hanajuoman, bread sticksit, crispy friesit, cinnamon sticksit sekä kahvin ja teen."
+          },
+          {
+            "title": "Kokoa oma lounaspizza",
+            "diets": [],
+            "price": "8,90 €",
+            "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pancho-tullintori",
+      "name": "Pancho Villa Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": "11:00–14:00",
+      "price": "13,70 €",
+      "lat": 61.49693,
+      "lon": 23.77698,
+      "distance": 97,
+      "url": "https://panchovilla.fi/ravintolat/tampere-tullintori/",
+      "source": {
+        "label": "Pancho Villa",
+        "url": "https://panchovilla.fi/ravintolat/tampere-tullintori/"
+      },
+      "info": [
+        "Sivulla on vain päivän lista, joten viikon muut päivät näkyvät sitä mukaa kuin ne julkaistaan."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "1": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "2": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "3": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "4": [
+          {
+            "title": "Meksikolounas",
+            "diets": [
+              "PG"
+            ],
+            "price": "13,70 €",
+            "desc": "Bocadillo porsaankyljellä Rapean leivän päällä salaattia, Salsa Rojaa, Chef’s BBQ -kastiketta, Queso Frescoa ja ruohosipulia."
+          },
+          {
+            "title": "Savujuusto-pekoniburger",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "10,00 €",
+            "desc": "Ranskalaiset +2 €, dippi +2 €."
+          },
+          {
+            "title": "Lounasburgerit",
+            "diets": [
+              "PG"
+            ],
+            "price": "12,90 €",
+            "desc": "Kana / kasvis (tupla 15,40 €)"
+          },
+          {
+            "title": "Lounasburgerit",
+            "diets": [
+              "PG"
+            ],
+            "price": "13,70 €",
+            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
+          },
+          {
+            "title": "Parilalounas",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "14,90 €",
+            "desc": "Paneroitu kana / paneroitu porsaan pihvi Grillikasviksia ja aurajuustokastiketta."
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [
+              "PG"
+            ],
+            "price": "14,50 €",
+            "desc": "Kana / halloumi / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, kurkkua, marinoitua punasipulia, paahdettuja kurpitsansiemeniä, nachomurua ja Queso Frescoa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "zhuang-yuan-lou",
+      "name": "Zhuang Yuan Lou",
+      "address": "Tullikatu 6 (Tullintori, 0. krs)",
+      "hours": "10:30–18:00",
+      "price": "13,50 €",
+      "lat": 61.49693,
+      "lon": 23.77698,
+      "distance": 97,
+      "url": "https://tullintori.fi/liike/zhuang-yuan-lou/",
+      "source": {
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
+      },
+      "menus": {
+        "0": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "13,50 €",
+            "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
+          }
+        ],
+        "1": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "13,50 €",
+            "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
+          }
+        ],
+        "2": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "13,50 €",
+            "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
+          }
+        ],
+        "3": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "13,50 €",
+            "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
+          }
+        ],
+        "4": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "13,50 €",
+            "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
+          }
+        ]
+      }
+    },
+    {
+      "id": "k-market-tullintori",
+      "name": "K-Market Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 0. krs)",
+      "hours": "10:30–14:30",
+      "price": null,
+      "lat": 61.49693,
+      "lon": 23.77698,
+      "distance": 97,
+      "url": "https://www.k-ruoka.fi/kauppa/k-market-tullintori/ruokalistat",
+      "source": {
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
+      },
+      "info": [
+        "Kaupan lounasbuffet ja salaattibaari punnitaan. Päivän ruoat näkyvät K-Ruoan sivuilla."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Salaattibaari",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Lohikeitto",
+            "diets": [],
+            "price": "5,49 €"
+          }
+        ],
+        "1": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Salaattibaari",
+            "diets": [],
+            "price": "16,90 €/kg"
+          }
+        ],
+        "2": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Salaattibaari",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Lohikeitto",
+            "diets": [],
+            "price": "5,49 €"
+          }
+        ],
+        "3": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Salaattibaari",
+            "diets": [],
+            "price": "16,90 €/kg"
+          }
+        ],
+        "4": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Salaattibaari",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Lohikeitto",
+            "diets": [],
+            "price": "5,49 €"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brander-tullintori",
+      "name": "Brander Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": "11:00–14:00",
+      "price": "10,90 €",
+      "lat": 61.49718,
+      "lon": 23.77686,
+      "distance": 118,
+      "url": "https://www.brander.fi/kahvilat/tullintorin-lounaslista/",
+      "source": {
+        "label": "Brander",
+        "url": "https://www.brander.fi/kahvilat/tullintorin-lounaslista/"
+      },
+      "info": [
+        "Salaatti- ja keittolounas, hinnat alkaen 10,90 €."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "1": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "2": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "3": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "4": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "babas-kitchen",
+      "name": "Baba’s Kitchen",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": null,
+      "price": "14,00 €",
+      "lat": 61.49728,
+      "lon": 23.77684,
+      "distance": 126,
+      "url": "https://tullintori.fi/liike/babas-kitchen/",
+      "source": {
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
+      },
+      "info": [
+        "With Fries- ja Iskender-annokset eivät kuulu lounastarjoukseen."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Kana- tai kasvisannos",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Lähi-idän makuja menusta valiten. Lounaaseen kuuluu kahvi ja suklaa."
+          },
+          {
+            "title": "Naudanliha-annos",
+            "diets": [],
+            "price": "15,00 €",
+            "desc": "Lounaaseen kuuluu kahvi ja suklaa."
+          }
+        ],
+        "1": [
+          {
+            "title": "Kana- tai kasvisannos",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Lähi-idän makuja menusta valiten. Lounaaseen kuuluu kahvi ja suklaa."
+          },
+          {
+            "title": "Naudanliha-annos",
+            "diets": [],
+            "price": "15,00 €",
+            "desc": "Lounaaseen kuuluu kahvi ja suklaa."
+          }
+        ],
+        "2": [
+          {
+            "title": "Kana- tai kasvisannos",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Lähi-idän makuja menusta valiten. Lounaaseen kuuluu kahvi ja suklaa."
+          },
+          {
+            "title": "Naudanliha-annos",
+            "diets": [],
+            "price": "15,00 €",
+            "desc": "Lounaaseen kuuluu kahvi ja suklaa."
+          }
+        ],
+        "3": [
+          {
+            "title": "Kana- tai kasvisannos",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Lähi-idän makuja menusta valiten. Lounaaseen kuuluu kahvi ja suklaa."
+          },
+          {
+            "title": "Naudanliha-annos",
+            "diets": [],
+            "price": "15,00 €",
+            "desc": "Lounaaseen kuuluu kahvi ja suklaa."
+          }
+        ],
+        "4": [
+          {
+            "title": "Kana- tai kasvisannos",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Lähi-idän makuja menusta valiten. Lounaaseen kuuluu kahvi ja suklaa."
+          },
+          {
+            "title": "Naudanliha-annos",
+            "diets": [],
+            "price": "15,00 €",
+            "desc": "Lounaaseen kuuluu kahvi ja suklaa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pyymaen-tullintori",
+      "name": "Pyymäen Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": "11:00–14:00",
+      "price": null,
+      "lat": 61.49737,
+      "lon": 23.77697,
+      "distance": 128,
+      "url": "https://www.pyymaen.fi/kahvilat/toimipisteet/pyymaen-tullintori/",
+      "source": {
+        "label": "Pyymäen",
+        "url": "https://www.pyymaen.fi/kahvilat/toimipisteet/pyymaen-tullintori/"
+      },
+      "info": [
+        "Lounas sisältää leipävalikoiman, veden sekä kahvin tai teen."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Päivän keitto: Jauhelihakeitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "11,90 €"
+          },
+          {
+            "title": "Lounassalaatit",
+            "diets": [],
+            "price": "13,50 €",
+            "parts": [
+              {
+                "title": "Kanacaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Lohicaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Pyymäen lohisalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Halloumsalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin kanasalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin vuohenjuustosalaatti",
+                "diets": [
+                  "G",
+                  "VL"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Uuniperuna",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "12,50 €"
+          }
+        ],
+        "1": [
+          {
+            "title": "Päivän keitto: Kahden kalan keitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "11,90 €"
+          },
+          {
+            "title": "Lounassalaatit",
+            "diets": [],
+            "price": "13,50 €",
+            "parts": [
+              {
+                "title": "Kanacaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Lohicaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Pyymäen lohisalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Halloumsalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin kanasalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin vuohenjuustosalaatti",
+                "diets": [
+                  "G",
+                  "VL"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Uuniperuna",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "12,50 €"
+          }
+        ],
+        "2": [
+          {
+            "title": "Päivän keitto: Kanakeitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "11,90 €"
+          },
+          {
+            "title": "Lounassalaatit",
+            "diets": [],
+            "price": "13,50 €",
+            "parts": [
+              {
+                "title": "Kanacaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Lohicaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Pyymäen lohisalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Halloumsalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin kanasalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin vuohenjuustosalaatti",
+                "diets": [
+                  "G",
+                  "VL"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Uuniperuna",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "12,50 €"
+          }
+        ],
+        "3": [
+          {
+            "title": "Päivän keitto: Kaalikeitto",
+            "diets": [
+              "G",
+              "M"
+            ],
+            "price": "11,90 €"
+          },
+          {
+            "title": "Lounassalaatit",
+            "diets": [],
+            "price": "13,50 €",
+            "parts": [
+              {
+                "title": "Kanacaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Lohicaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Pyymäen lohisalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Halloumsalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin kanasalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin vuohenjuustosalaatti",
+                "diets": [
+                  "G",
+                  "VL"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Uuniperuna",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "12,50 €"
+          }
+        ],
+        "4": [
+          {
+            "title": "Päivän keitto: Lohikeitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "11,90 €"
+          },
+          {
+            "title": "Lounassalaatit",
+            "diets": [],
+            "price": "13,50 €",
+            "parts": [
+              {
+                "title": "Kanacaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Lohicaesarsalaatti",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Pyymäen lohisalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Halloumsalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin kanasalaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lämmin vuohenjuustosalaatti",
+                "diets": [
+                  "G",
+                  "VL"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Uuniperuna",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "12,50 €"
           }
         ]
       }
@@ -704,10 +1533,90 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "id": "marco-boulangerie",
+      "name": "Marco Boulangerie / Cuisine",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": "11:00–15:00",
+      "price": null,
+      "lat": 61.49776,
+      "lon": 23.77728,
+      "distance": 154,
+      "url": "https://www.boulangeriemarco.fi/menu",
+      "source": {
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
       },
-      "warnings": [
-        "ke: hinta otsikossa: Lihapullia (7kpl/annos, EXTRA 0,25e), perunaa ja pippurikastiketta"
-      ]
+      "info": [
+        "Lounas tiistaista lauantaihin, maanantaina ei lounasta."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
+          }
+        ],
+        "1": [
+          {
+            "title": "Lounaspasta",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Valmistettu paikan päällä alusta alkaen. Sisältää leipomon oman leivän sekä kahvin tai teen."
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [],
+            "price": "13,30 €",
+            "desc": "Sisältää leipomon oman leivän sekä kahvin tai teen."
+          }
+        ],
+        "2": [
+          {
+            "title": "Lounaspasta",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Valmistettu paikan päällä alusta alkaen. Sisältää leipomon oman leivän sekä kahvin tai teen."
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [],
+            "price": "13,30 €",
+            "desc": "Sisältää leipomon oman leivän sekä kahvin tai teen."
+          }
+        ],
+        "3": [
+          {
+            "title": "Lounaspasta",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Valmistettu paikan päällä alusta alkaen. Sisältää leipomon oman leivän sekä kahvin tai teen."
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [],
+            "price": "13,30 €",
+            "desc": "Sisältää leipomon oman leivän sekä kahvin tai teen."
+          }
+        ],
+        "4": [
+          {
+            "title": "Lounaspasta",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Valmistettu paikan päällä alusta alkaen. Sisältää leipomon oman leivän sekä kahvin tai teen."
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [],
+            "price": "13,30 €",
+            "desc": "Sisältää leipomon oman leivän sekä kahvin tai teen."
+          }
+        ]
+      }
     },
     {
       "id": "kitchen-bar-courtyard",
@@ -911,6 +1820,208 @@
             ],
             "price": null,
             "desc": "Raikasta salaattia, rapeaa kanaa, kvinoaa, kurkkua, kirsikkatomaattia, punasipulia ja balsamicokastiketta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "los-pollos",
+      "name": "Los Pollos Grill & Bar",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "hours": "10:30–15:00",
+      "price": "13,90 €",
+      "lat": 61.49773,
+      "lon": 23.77682,
+      "distance": 164,
+      "url": "https://pollos.fi/lounas",
+      "source": {
+        "label": "Los Pollos",
+        "url": "https://pollos.fi/lounas"
+      },
+      "info": [
+        "Lounaaseen sisältyy kahvi ja tee."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Aurajuustoinen kanatasku",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Pariloitu ohutrieska täytettynä ylikypsällä kananrinnalla ja salaatilla. lisäksi salsaa, kermaista aurajuustokastiketta, rucolaa ja tomaattia"
+          },
+          {
+            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Paistinperunoita, salaattia & pikkelöityjä kasviksia ja paahdettu lintuliemi."
+          },
+          {
+            "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
+          }
+        ],
+        "1": [
+          {
+            "title": "Salami-kanatasku",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Pariloitu perunarieska, kotimaista kananpoikaa ja salaattia & italialaista tryffelisalamia, salsaa ja tryffelimajoneesia."
+          },
+          {
+            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Duchesse-perunaa, tomaatti-mozzarellasalaattia & luumutomaattikastiketta."
+          },
+          {
+            "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
+          },
+          {
+            "title": "Popcorn kanaa",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "14,90 €",
+            "desc": "Rapeaksi paistettua paneroitua kananpoikaa, cajun-perunoita, salaattia, pikkelöityä punasipulia ja avokadodippi."
+          }
+        ],
+        "2": [
+          {
+            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Kermaisella pinaattimuhennoksella täytettyä uuniperunaa, salaattia, pikkeleitä ja tummaa sipulikastiketta."
+          },
+          {
+            "title": "Curry-ananas kanatasku",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Pariloitua perunarieskaa, salaattia, paprikaa, kotimaista kananpoikaa sekä salsaa, currymajoa ja grillattua ananasta."
+          },
+          {
+            "title": "Omenainen possupata",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Kotimaista porsaan ulkofilettä omenoiden ja sipuleiden kera haudutettuna. lisäksi persiljaperunoita ja punajuurta."
+          },
+          {
+            "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
+          }
+        ],
+        "3": [
+          {
+            "title": "Kantarelli-kanatasku",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Pariloidun ohutrieskan välissä salaattia ja grillattua kanaa kermaisen kantarellimuhennoksen kera."
+          },
+          {
+            "title": "Beef canneloni",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Pitkään haudutetulla rotukarjan beef ragulla täytettyjä canneloneja bechamel-kastikkeella ja juustoilla kuorrutettuna."
+          },
+          {
+            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Lohkoperunoita, rakuunaporkkanoita ja kermaista valkosipulikastiketta."
+          },
+          {
+            "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
+          }
+        ],
+        "4": [
+          {
+            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Patatas bravas -perunoita, salaattia ja paahdettu lintuliemi."
+          },
+          {
+            "title": "Gorgonzola-kanatasku",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Grillikanaa, sipulia & paprikaa ja salaattia pariloidussa ohutrieskassa. lisäksi gorgonzola-juustoa ja omena-selleri hilloketta."
+          },
+          {
+            "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
+          },
+          {
+            "title": "Chicken tandoori",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Kotimaista kananpoikaa, sipuleita ja paprikoita lempeän tulisessa tandoori-kastikkeessa, lisäksi riisiä, hapankermaa, seesaminsiemeniä ja tuoretta chiliä."
+          },
+          {
+            "title": "Beef canneloni",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Pitkään haudutetulla rotukarjan beef ragulla täytettyjä canneloneja bechamel-kastikkeella ja juustoilla kuorrutettuna."
           }
         ]
       }

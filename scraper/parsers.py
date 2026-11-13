@@ -538,10 +538,10 @@ def parse_sodexo(restaurant_id: int, today: date) -> dict:
 # --------------------------------------------------------------------------
 # Pancho Villa
 # --------------------------------------------------------------------------
-def parse_pancho():
+def parse_pancho(url: str = "https://panchovilla.fi/ravintolat/kokkola/"):
     """Palauttaa (menus, staticNote)."""
     menus = empty_week()
-    html = fetch_html("https://panchovilla.fi/ravintolat/kokkola/")
+    html = fetch_html(url)
     if not html:
         return menus, None
     soup = BeautifulSoup(html, "html.parser")
@@ -599,6 +599,189 @@ def parse_pancho():
         for idx in range(5):
             menus[str(idx)].append(dict(special))
     return menus, static or None
+
+
+def parse_pancho_today(url: str, today: date) -> dict:
+    """Pancho Villa, jonka sivulla on vain päivän lista ("Tänään 13.11.", esim. Tullintori).
+
+    Jokainen lounas on oma lohkonsa: "MEKSIKOLOUNAS 13,70 €", vaihtoehdot/merkinnät ja kuvaus.
+    Viikon aiemmat päivät täydentyvät aiemmista ajoista.
+    """
+    menus = empty_week()
+    idx = today.weekday()
+    if idx > 4:
+        return menus
+    html = fetch_html(url)
+    if not html:
+        return menus
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg"]):
+        tag.decompose()
+    lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
+    start = next((i for i, l in enumerate(lines) if re.match(r"^tänään\s+\d{1,2}\.\d{1,2}\.?$", l, re.IGNORECASE)), None)
+    if start is None:
+        print("  Panchon päivän listaa ei löytynyt")
+        return menus
+    dm = re.search(r"(\d{1,2})\.(\d{1,2})", lines[start])
+    if (int(dm.group(1)), int(dm.group(2))) != (today.day, today.month):
+        print(f"  Panchon lista on päivältä {lines[start]}, ohitetaan")
+        return menus
+    items = []
+    for line in lines[start + 1:]:
+        if line.lower() in ("palvelut", "aukioloajat", "yhteystiedot"):
+            break
+        head = re.match(r"^([A-ZÅÄÖ][A-ZÅÄÖ \-–&]{3,})\s+(\d{1,2}(?:[,.]\d{1,2})?\s*€.*)$", line)
+        if head:
+            pm = PRICE_RE.search(head.group(2))
+            items.append({"title": head.group(1).strip().capitalize(), "diets": [], "price": format_price(pm) if pm else None,
+                          "desc": "", "_extra": head.group(2)[pm.end():].strip(" /") if pm else ""})
+            continue
+        if not items:
+            continue
+        item = items[-1]
+        diets = [d for m in PAREN_DIETS_RE.finditer(line) for d in re.split(r"[\s,]+", m.group(1))]
+        item["diets"] = normalize_diets(item["diets"] + diets)
+        text = PAREN_DIETS_RE.sub("", line).strip(" ,")
+        if text:
+            item["desc"] = f"{item['desc']} {text}".strip()
+    for item in items:
+        extra = item.pop("_extra")
+        if extra:
+            item["desc"] = f"{item['desc']} ({extra})".strip()
+        if not item["desc"]:
+            item.pop("desc")
+    menus[str(idx)] = items
+    return menus
+
+
+# --------------------------------------------------------------------------
+# Tampere: Tullintori
+# --------------------------------------------------------------------------
+def _slash_diets(text: str) -> str:
+    """"L/G" ja "L,G" -> "L, G", jotta merkinnät tunnistetaan."""
+    return re.sub(rf"\b({DIET_TOKEN})\s*/\s*(?={DIET_TOKEN}\b)", r"\1, ", text, flags=re.IGNORECASE)
+
+
+def parse_brander(url: str, today: date) -> dict:
+    """Brander-kahvila: "Maanantai 16.11" ja sen alla päivän keitot (merkinnät "M/G")."""
+    menus = empty_week()
+    html = fetch_html(url)
+    if not html:
+        return menus
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav"]):
+        tag.decompose()
+    lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
+    dates = week_dates(today)
+    current = None
+    for line in lines:
+        m = re.match(r"^(maanantai|tiistai|keskiviikko|torstai|perjantai)\s+(\d{1,2})\.(\d{1,2})\.?$", line, re.IGNORECASE)
+        if m:
+            idx = WEEKDAYS_FI.index(m.group(1).lower())
+            d = dates[idx]
+            current = idx if (int(m.group(2)), int(m.group(3))) == (d.day, d.month) else None
+            continue
+        if re.match(r"^(lauantai|sunnuntai|konditoriatuotteet|kakut|suolaiset)\b", line, re.IGNORECASE):
+            current = None
+            continue
+        if current is None:
+            continue
+        title, diets, price = parse_dish_line(_slash_diets(line))
+        if title and len(title) > 3:
+            menus[str(current)].append({"title": title, "diets": diets, "price": price})
+    return menus
+
+
+def parse_pyymaen(slug: str, today: date) -> dict:
+    """Pyymäen kahvila: viikon salaatit ja uuniperuna joka päivä sekä päivän keitto.
+
+    Sivun osoite on viikkokohtainen: /kahvilat/lounaslista/<slug>/<viikko>/
+    """
+    menus = empty_week()
+    week = today.isocalendar()[1]
+    html = fetch_html(f"https://www.pyymaen.fi/kahvilat/lounaslista/{slug}/{week}/")
+    if not html:
+        return menus
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav"]):
+        tag.decompose()
+    lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
+    start = next((i for i, l in enumerate(lines) if re.search(rf"viikko\s+{week}\b", l, re.IGNORECASE)), None)
+    if start is None:
+        print(f"  Pyymäen viikon {week} listaa ei löytynyt")
+        return menus
+    salads, others, soups = [], [], {}
+    for line in lines[start + 1:]:
+        if line.startswith("«") or line.lower().startswith(("lataa pdf", "tervetuloa")):
+            break
+        day = re.match(r"^(maanantai|tiistai|keskiviikko|torstai|perjantai)\s*:\s*(.+)$", line, re.IGNORECASE)
+        if day:
+            idx = WEEKDAYS_FI.index(day.group(1).lower())
+            text = day.group(2).strip()
+            if re.search(r"kiinni|suljettu|ei lounasta", text, re.IGNORECASE):
+                soups[idx] = None
+                continue
+            title, diets, price = parse_dish_line(_slash_diets(text))
+            soups[idx] = {"title": f"Päivän keitto: {title}", "diets": diets, "price": price}
+            continue
+        if re.match(r"^vaihtuvat keitot", line, re.IGNORECASE) or not PRICE_RE.search(line):
+            continue
+        title, diets, price = parse_dish_line(_slash_diets(line))
+        if not title:
+            continue
+        (salads if re.search(r"salaatti$", title, re.IGNORECASE) else others).append(
+            {"title": title, "diets": diets, "price": price})
+    common = []
+    if salads:
+        common.append(package("Lounassalaatit", [{"title": s["title"], "diets": s["diets"]} for s in salads], salads[0]["price"]))
+    common += others
+    for idx in range(5):
+        if idx in soups and soups[idx] is None:
+            continue  # päivä suljettu
+        items = ([soups[idx]] if soups.get(idx) else []) + [dict(i) for i in common]
+        menus[str(idx)] = items
+    return menus
+
+
+def parse_lospollos(today: date) -> dict:
+    """Los Pollos Grill & Bar (pollos.fi): sivuston oma JSON-rajapinta."""
+    menus = empty_week()
+    data = fetch_json("https://pollos.fi/api/public/lunch")
+    if not data:
+        return menus
+    dates = [d.isoformat() for d in week_dates(today)]
+    for key in ("mon", "tue", "wed", "thu", "fri"):
+        day = data.get(key) or {}
+        if day.get("date") not in dates or day.get("closed") or day.get("nolunch"):
+            continue
+        items = []
+        for it in sorted(day.get("lunchItems") or [], key=lambda i: i.get("lunchItemVisibilityOrder", 0)):
+            if it.get("hidden"):
+                continue
+            title = re.sub(r"[^\w\s&,.'’()/-]", "", it.get("lunchItemTitle") or "").strip()
+            if not title:
+                continue
+            diets = []
+            if it.get("glutenFree"):
+                diets.append("G")
+            elif it.get("glutenFreeOnRequest"):
+                diets.append("PG")
+            if it.get("lactoseFree"):
+                diets.append("L")
+            if it.get("vegan"):
+                diets.append("Veg")
+            price = it.get("lunchItemPrice")
+            desc = re.sub(r"\s+", " ", it.get("lunchItemDescription") or "").strip()
+            item = {
+                "title": title.capitalize() if title.isupper() else title,
+                "diets": [d for d in DIET_ORDER if d in diets],
+                "price": f"{price:.2f}".replace(".", ",") + " €" if isinstance(price, (int, float)) else None,
+            }
+            if desc:
+                item["desc"] = desc.capitalize() if desc.isupper() else desc
+            items.append(item)
+        menus[str(dates.index(day["date"]))] = items
+    return menus
 
 
 # --------------------------------------------------------------------------
@@ -997,7 +1180,8 @@ SUSPICIOUS_RES = [
     (re.compile(r"toimipiste", re.IGNORECASE), "toimipisteteksti"),
     (re.compile(r"\d[,.]\d\s*/\s*5"), "arvosana"),
     (re.compile(r"\b(etusivu|valikko|evästeet|lue lisää)\b", re.IGNORECASE), "navigaatioteksti"),
-    (re.compile(r"\d+[,.]\d{2}\s*(€|e\b|eur)", re.IGNORECASE), "hinta otsikossa"),
+    # "extra 0,25e" ja "+1,00 €" ovat lisähintoja, eivät otsikkoon jäänyt annoksen hinta
+    (re.compile(r"(?<!extra )(?<!\+)(?<!\+ )\b\d+[,.]\d{2}\s*(€|e\b|eur)", re.IGNORECASE), "hinta otsikossa"),
 ]
 
 

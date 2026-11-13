@@ -8,7 +8,7 @@
         "pinninkatu.aihio.fyi"
       ],
       "title": "Pinninkadun lounas – Tampere",
-      "description": "Pinninkadun ja Tullintorin lähiravintoloiden lounaslistat yhdellä silmäyksellä.",
+      "description": "Pinninkadun, Tullintorin ja lähikortteleiden ravintoloiden lounaslistat yhdellä silmäyksellä.",
       "brandMain": "Pinninkadun",
       "kicker": "Tampere · Pinninkatu",
       "place": "Pinninkadulla",
@@ -47,7 +47,16 @@
         "aloha-ramen",
         "schnitzelhaus",
         "delhi-house",
-        "2hk"
+        "2hk",
+        "pizza-hut-tullintori",
+        "pancho-tullintori",
+        "pyymaen-tullintori",
+        "brander-tullintori",
+        "babas-kitchen",
+        "los-pollos",
+        "marco-boulangerie",
+        "zhuang-yuan-lou",
+        "k-market-tullintori"
       ]
     }
   }

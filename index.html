@@ -2117,9 +2117,13 @@
         shown.setDate(monday.getDate() + selectedDay);
         sub.textContent = `${dayNames[selectedDay]} ${shown.getDate()}.${shown.getMonth() + 1}. – ${count} lounaspaikan listat yhdellä silmäyksellä.`;
       }
-      chips.innerHTML = appData.restaurants
-        .map((r) => `<a class="hero-chip" href="#card-${esc(r.id)}">${esc(r.name)}</a>`)
-        .join("");
+      // Pikalinkit vain, kun ravintoloita on kohtuullinen määrä; muuten ne veisivät koko näkymän
+      chips.innerHTML =
+        appData.restaurants.length > 12
+          ? ""
+          : appData.restaurants
+              .map((r) => `<a class="hero-chip" href="#card-${esc(r.id)}">${esc(r.name)}</a>`)
+              .join("");
     }
 
     function renderAll() {
@@ -2270,8 +2274,7 @@
               </div>
               <div class="restaurant-meta">
                 <span>${esc(rest.address)}</span>
-                <span>•</span>
-                <span>Lounas ${esc(rest.hours)}</span>
+                ${rest.hours ? `<span>•</span><span>Lounas ${esc(rest.hours)}</span>` : ""}
                 ${openPillHtml}
               </div>
               ${(rest.info || []).map((line) => `<p class="restaurant-info">${esc(line)}</p>`).join("")}

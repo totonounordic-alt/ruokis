@@ -23,6 +23,10 @@ SOURCE_LABELS = {
     "jamix": "Jamix",
     "sodexo": "Sodexo",
     "static": "lounaat.info",
+    "pancho_today": "Pancho Villa",
+    "brander": "Brander",
+    "pyymaen": "Pyymäen",
+    "lospollos": "Los Pollos",
 }
 
 
@@ -35,8 +39,22 @@ def fetch_source(source: dict, today) -> dict:
     if kind == "compass":
         return {"menus": p.parse_compass(source["url"], today)}
     if kind == "static":
-        # Kiinteä viikkotarjous (esim. buffet, jonka päivän ruokia ei julkaista)
-        return {"menus": {str(d): [dict(i) for i in source["items"]] for d in range(5)}}
+        # Kiinteä viikkotarjous (esim. buffet, jonka päivän ruokia ei julkaista).
+        # Annoksen "days" rajaa viikonpäivät (ma = 0), muuten joka arkipäivä.
+        menus = {str(d): [] for d in range(5)}
+        for item in source["items"]:
+            item = dict(item)
+            for d in item.pop("days", range(5)):
+                menus[str(d)].append(dict(item))
+        return {"menus": menus}
+    if kind == "pancho_today":
+        return {"menus": p.parse_pancho_today(source["url"], today)}
+    if kind == "brander":
+        return {"menus": p.parse_brander(source["url"], today)}
+    if kind == "pyymaen":
+        return {"menus": p.parse_pyymaen(source["slug"], today)}
+    if kind == "lospollos":
+        return {"menus": p.parse_lospollos(today)}
     if kind == "sodexo":
         return {"menus": p.parse_sodexo(source["id"], today)}
     if kind == "jamix":
@@ -123,7 +141,7 @@ def main():
                 "lon": spec["lon"],
                 "distance": distance_m(site["center"], spec),
                 "url": spec.get("url"),
-                "source": {"label": SOURCE_LABELS.get(source["type"], source["type"]), "url": source.get("url")},
+                "source": {"label": source.get("label") or SOURCE_LABELS.get(source["type"], source["type"]), "url": source.get("url")},
             }
             for key in ("info", "staticNote"):
                 if spec.get(key) or result.get(key):

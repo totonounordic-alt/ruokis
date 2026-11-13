@@ -200,6 +200,243 @@
         "type": "lounaat_info",
         "url": "https://www.lounaat.info/lounas/2hk/tampere"
       }
+    },
+    "pancho-tullintori": {
+      "name": "Pancho Villa Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49693,
+      "lon": 23.77698,
+      "hours": "11:00–14:00",
+      "price": "13,70 €",
+      "url": "https://panchovilla.fi/ravintolat/tampere-tullintori/",
+      "source": {
+        "type": "pancho_today",
+        "url": "https://panchovilla.fi/ravintolat/tampere-tullintori/"
+      },
+      "info": [
+        "Sivulla on vain päivän lista, joten viikon muut päivät näkyvät sitä mukaa kuin ne julkaistaan."
+      ]
+    },
+    "los-pollos": {
+      "name": "Los Pollos Grill & Bar",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49773,
+      "lon": 23.77682,
+      "hours": "10:30–15:00",
+      "price": "13,90 €",
+      "url": "https://pollos.fi/lounas",
+      "source": {
+        "type": "lospollos",
+        "url": "https://pollos.fi/lounas"
+      },
+      "info": [
+        "Lounaaseen sisältyy kahvi ja tee."
+      ]
+    },
+    "pyymaen-tullintori": {
+      "name": "Pyymäen Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49737,
+      "lon": 23.77697,
+      "hours": "11:00–14:00",
+      "price": null,
+      "url": "https://www.pyymaen.fi/kahvilat/toimipisteet/pyymaen-tullintori/",
+      "source": {
+        "type": "pyymaen",
+        "slug": "pyymaen-tullintori",
+        "url": "https://www.pyymaen.fi/kahvilat/toimipisteet/pyymaen-tullintori/"
+      },
+      "info": [
+        "Lounas sisältää leipävalikoiman, veden sekä kahvin tai teen."
+      ]
+    },
+    "brander-tullintori": {
+      "name": "Brander Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49718,
+      "lon": 23.77686,
+      "hours": "11:00–14:00",
+      "price": "10,90 €",
+      "url": "https://www.brander.fi/kahvilat/tullintorin-lounaslista/",
+      "source": {
+        "type": "brander",
+        "url": "https://www.brander.fi/kahvilat/tullintorin-lounaslista/"
+      },
+      "info": [
+        "Salaatti- ja keittolounas, hinnat alkaen 10,90 €."
+      ]
+    },
+    "pizza-hut-tullintori": {
+      "name": "Pizza Hut Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49695,
+      "lon": 23.77724,
+      "hours": "10:30–15:00",
+      "price": "14,00 €",
+      "url": "https://www.pizzahut.fi/lounas/",
+      "source": {
+        "type": "static",
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/",
+        "items": [
+          {
+            "title": "Pan Pizza -buffet",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Syö niin paljon pizzaa kuin haluat. Sisältää alkusalaatin, hanajuoman, bread sticksit, crispy friesit, cinnamon sticksit sekä kahvin ja teen."
+          },
+          {
+            "title": "Kokoa oma lounaspizza",
+            "diets": [],
+            "price": "8,90 €",
+            "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
+          }
+        ]
+      }
+    },
+    "zhuang-yuan-lou": {
+      "name": "Zhuang Yuan Lou",
+      "address": "Tullikatu 6 (Tullintori, 0. krs)",
+      "city": "Tampere",
+      "lat": 61.49693,
+      "lon": 23.77698,
+      "hours": "10:30–18:00",
+      "price": "13,50 €",
+      "url": "https://tullintori.fi/liike/zhuang-yuan-lou/",
+      "source": {
+        "type": "static",
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/",
+        "items": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "13,50 €",
+            "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
+          }
+        ]
+      }
+    },
+    "marco-boulangerie": {
+      "name": "Marco Boulangerie / Cuisine",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49776,
+      "lon": 23.77728,
+      "hours": "11:00–15:00",
+      "price": null,
+      "url": "https://www.boulangeriemarco.fi/menu",
+      "source": {
+        "type": "static",
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/",
+        "items": [
+          {
+            "title": "Lounaspasta",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Valmistettu paikan päällä alusta alkaen. Sisältää leipomon oman leivän sekä kahvin tai teen.",
+            "days": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [],
+            "price": "13,30 €",
+            "desc": "Sisältää leipomon oman leivän sekä kahvin tai teen.",
+            "days": [
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "info": [
+        "Lounas tiistaista lauantaihin, maanantaina ei lounasta."
+      ]
+    },
+    "babas-kitchen": {
+      "name": "Baba’s Kitchen",
+      "address": "Tullikatu 6 (Tullintori, 1. krs)",
+      "city": "Tampere",
+      "lat": 61.49728,
+      "lon": 23.77684,
+      "hours": null,
+      "price": "14,00 €",
+      "url": "https://tullintori.fi/liike/babas-kitchen/",
+      "source": {
+        "type": "static",
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/",
+        "items": [
+          {
+            "title": "Kana- tai kasvisannos",
+            "diets": [],
+            "price": "14,00 €",
+            "desc": "Lähi-idän makuja menusta valiten. Lounaaseen kuuluu kahvi ja suklaa."
+          },
+          {
+            "title": "Naudanliha-annos",
+            "diets": [],
+            "price": "15,00 €",
+            "desc": "Lounaaseen kuuluu kahvi ja suklaa."
+          }
+        ]
+      },
+      "info": [
+        "With Fries- ja Iskender-annokset eivät kuulu lounastarjoukseen."
+      ]
+    },
+    "k-market-tullintori": {
+      "name": "K-Market Tullintori",
+      "address": "Tullikatu 6 (Tullintori, 0. krs)",
+      "city": "Tampere",
+      "lat": 61.49693,
+      "lon": 23.77698,
+      "hours": "10:30–14:30",
+      "price": null,
+      "url": "https://www.k-ruoka.fi/kauppa/k-market-tullintori/ruokalistat",
+      "source": {
+        "type": "static",
+        "label": "tullintori.fi",
+        "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/",
+        "items": [
+          {
+            "title": "Lounasbuffet",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Salaattibaari",
+            "diets": [],
+            "price": "16,90 €/kg"
+          },
+          {
+            "title": "Lohikeitto",
+            "diets": [],
+            "price": "5,49 €",
+            "days": [
+              0,
+              2,
+              4
+            ]
+          }
+        ]
+      },
+      "info": [
+        "Kaupan lounasbuffet ja salaattibaari punnitaan. Päivän ruoat näkyvät K-Ruoan sivuilla."
+      ]
     }
   }
 }
