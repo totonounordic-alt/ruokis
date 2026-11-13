@@ -1,0 +1,54 @@
+{
+  "_ohje": "Toimipisteet. Hakuskripti, sivu ja Worker lukevat tämän tiedoston. Ravintolat viittaavat restaurants.json-rekisteriin. published: false = ei vielä julkaistu.",
+  "defaultSite": "pinninkatu",
+  "sites": {
+    "pinninkatu": {
+      "published": true,
+      "hosts": [
+        "pinninkatu.aihio.fyi"
+      ],
+      "title": "Pinninkadun lounas – Tampere",
+      "description": "Pinninkadun ja Tullintorin lähiravintoloiden lounaslistat yhdellä silmäyksellä.",
+      "brandMain": "Pinninkadun",
+      "kicker": "Tampere · Pinninkatu",
+      "place": "Pinninkadulla",
+      "placeGenitive": "Pinninkadun",
+      "centerName": "Pinninkadulta",
+      "address": "Pinninkatu 51, Tampere",
+      "center": {
+        "lat": 61.49652,
+        "lon": 23.77859
+      },
+      "radius": 500,
+      "theme": "tullintori",
+      "themeColor": "#1d2227",
+      "hero": {
+        "image": "assets/tullintori.svg",
+        "label": "Piirros: Tullintori"
+      },
+      "icons": {
+        "svg": "assets/favicon-tullintori.svg",
+        "png": "assets/tullintori-favicon-32.png",
+        "touch": "assets/tullintori-apple-touch-icon.png"
+      },
+      "ogImage": "assets/og-pinninkatu.jpg",
+      "feedbackProject": "lounas-pinninkatu",
+      "data": "data/pinninkatu.json",
+      "restaurants": [
+        "myllarit",
+        "kitchen-bar-courtyard",
+        "sodexo-linna",
+        "telakka",
+        "food-co-a11",
+        "food-co-minerva",
+        "semafori",
+        "zarillo-otavalankatu",
+        "maltti-taproom",
+        "aloha-ramen",
+        "schnitzelhaus",
+        "delhi-house",
+        "2hk"
+      ]
+    }
+  }
+}

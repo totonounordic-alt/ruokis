@@ -1,0 +1,205 @@
+{
+  "_ohje": "Ravintolarekisteri: kukin ravintola kerran. Toimipisteet (sites.json) valitsevat näistä omansa tunnisteella. Koordinaatit: OpenStreetMap / Nominatim.",
+  "restaurants": {
+    "myllarit": {
+      "name": "Ravintola Myllärit",
+      "address": "Åkerlundinkatu 4",
+      "city": "Tampere",
+      "lat": 61.49653,
+      "lon": 23.77796,
+      "hours": "11:00–14:00",
+      "price": null,
+      "url": "https://myllarit.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/myllarit/tampere"
+      }
+    },
+    "kitchen-bar-courtyard": {
+      "name": "Kitchen & Bar at Courtyard",
+      "address": "Yliopistonkatu 57",
+      "city": "Tampere",
+      "lat": 61.49559,
+      "lon": 23.78083,
+      "hours": "11:00–13:00",
+      "price": null,
+      "url": "https://www.kitchenandbar.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/kitchen-bar-at-courtyard-by-marriott/tampere"
+      }
+    },
+    "sodexo-linna": {
+      "name": "Sodexo Linna",
+      "address": "Kalevantie 5",
+      "city": "Tampere",
+      "lat": 61.49529,
+      "lon": 23.77797,
+      "hours": "10:30–14:30",
+      "price": null,
+      "url": "https://www.sodexo.fi/ravintolat/ravintola-linna",
+      "source": {
+        "type": "sodexo",
+        "id": 116,
+        "url": "https://www.sodexo.fi/ravintolat/ravintola-linna"
+      },
+      "info": [
+        "Tampereen yliopiston ravintola. Hinnat ovat ulkopuolisten hintoja."
+      ]
+    },
+    "telakka": {
+      "name": "Ravintola Telakka",
+      "address": "Tullikamarin aukio 3",
+      "city": "Tampere",
+      "lat": 61.49805,
+      "lon": 23.77796,
+      "hours": "11:00–15:00",
+      "price": null,
+      "url": "https://www.telakka.eu",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/telakka/tampere"
+      }
+    },
+    "food-co-a11": {
+      "name": "Food & Co Å11",
+      "address": "Åkerlundinkatu 11",
+      "city": "Tampere",
+      "lat": 61.49534,
+      "lon": 23.77509,
+      "hours": "11:00–13:00",
+      "price": null,
+      "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/tulli-business-park/",
+      "source": {
+        "type": "compass",
+        "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/tulli-business-park/"
+      }
+    },
+    "food-co-minerva": {
+      "name": "Food & Co Minerva",
+      "address": "Kanslerinrinne 1",
+      "city": "Tampere",
+      "lat": 61.49344,
+      "lon": 23.77748,
+      "hours": "10:30–15:00",
+      "price": null,
+      "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/minerva/",
+      "source": {
+        "type": "compass",
+        "url": "https://www.compass-group.fi/ravintolat-ja-ruokalistat/foodco/kaupungit/tampere/minerva/"
+      },
+      "info": [
+        "Tampereen yliopiston opiskelijaravintola. Ulkopuolisten hinta kassalla."
+      ]
+    },
+    "semafori": {
+      "name": "Semafori",
+      "address": "Rautatienkatu 25",
+      "city": "Tampere",
+      "lat": 61.49824,
+      "lon": 23.77386,
+      "hours": "10:30–15:00",
+      "price": null,
+      "url": "https://www.ravintolasemafori.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/semafori/tampere"
+      }
+    },
+    "zarillo-otavalankatu": {
+      "name": "Zarillo Otavalankatu",
+      "address": "Otavalankatu 9",
+      "city": "Tampere",
+      "lat": 61.49667,
+      "lon": 23.77152,
+      "hours": "10:30–15:00",
+      "price": null,
+      "url": "https://www.zarillo.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/zarillo/tampere"
+      }
+    },
+    "maltti-taproom": {
+      "name": "Maltti Taproom",
+      "address": "Kansikatu 3",
+      "city": "Tampere",
+      "lat": 61.49393,
+      "lon": 23.77306,
+      "hours": "10:30–14:00",
+      "price": "13,90 €",
+      "url": "https://www.malttitaproom.fi",
+      "source": {
+        "type": "static",
+        "url": "https://www.lounaat.info/lounas/maltti-taproom-entinen-casino-taproom/tampere",
+        "items": [
+          {
+            "title": "Buffetlounas",
+            "diets": [],
+            "price": "13,90 €",
+            "desc": "Salaattivalikoima, lämpimät pääruoat (myös kasvisvaihtoehto), kahvi ja keksi. Päivän ruokia ei julkaista etukäteen."
+          }
+        ]
+      },
+      "info": [
+        "Nokia Arenan aulassa. Vaihtoehtona myös viikon burgeriannos."
+      ]
+    },
+    "aloha-ramen": {
+      "name": "Aloha Ramen",
+      "address": "Tuomiokirkonkatu 40",
+      "city": "Tampere",
+      "lat": 61.49591,
+      "lon": 23.77052,
+      "hours": "10:30–15:00",
+      "price": null,
+      "url": "https://aloharamentampere.com",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/aloha-ramen/tampere"
+      }
+    },
+    "schnitzelhaus": {
+      "name": "Schnitzelhaus",
+      "address": "Tammelan puistokatu 26-28",
+      "city": "Tampere",
+      "lat": 61.50083,
+      "lon": 23.77925,
+      "hours": "11:00–15:00",
+      "price": null,
+      "url": "https://www.schnitzelhaus.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/schnitzelhaus/tampere"
+      }
+    },
+    "delhi-house": {
+      "name": "Delhi House",
+      "address": "Salhojankatu 25d",
+      "city": "Tampere",
+      "lat": 61.50036,
+      "lon": 23.78419,
+      "hours": "11:00–14:00",
+      "price": null,
+      "url": "https://delhihouse.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/delhi-house/tampere"
+      }
+    },
+    "2hk": {
+      "name": "2h+k",
+      "address": "Aleksanterinkatu 33",
+      "city": "Tampere",
+      "lat": 61.49673,
+      "lon": 23.76928,
+      "hours": "11:00–15:00",
+      "price": null,
+      "url": "https://www.2hk.fi",
+      "source": {
+        "type": "lounaat_info",
+        "url": "https://www.lounaat.info/lounas/2hk/tampere"
+      }
+    }
+  }
+}

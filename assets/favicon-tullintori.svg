@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f93d2"/>
+      <stop offset="1" stop-color="#1f5a92"/>
+    </linearGradient>
+    <linearGradient id="dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcd8f0"/>
+      <stop offset="1" stop-color="#4c6c88"/>
+    </linearGradient>
+    <clipPath id="d"><path d="M17 31 A15 15 0 0 1 47 31 Z"/></clipPath>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <!-- Tullintori: lasiholvi valkoisen funkkistalon katolla -->
+  <path d="M17 31 A15 15 0 0 1 47 31 Z" fill="url(#dome)"/>
+  <g clip-path="url(#d)" stroke="#f2f6fa" stroke-width="1" opacity=".8" fill="none">
+    <path d="M32 31 L19.3 23.5 M32 31 L24.5 18 M32 31 L32 16 M32 31 L39.5 18 M32 31 L44.7 23.5"/>
+    <path d="M24 31 A8 8 0 0 1 40 31"/>
+  </g>
+  <path d="M17 31 A15 15 0 0 1 47 31" fill="none" stroke="#7a3a27" stroke-width="2.2"/>
+  <rect x="7" y="31" width="50" height="25" rx="1.5" fill="#fbfbfa"/>
+  <rect x="7" y="37" width="50" height="1.6" fill="#d5dade"/>
+  <rect x="11" y="40" width="42" height="5" fill="#1f272f"/>
+  <rect x="7" y="47" width="50" height="1.6" fill="#d5dade"/>
+  <rect x="21" y="50" width="22" height="6" fill="#26313b"/>
+  <rect x="11" y="33" width="4" height="3" fill="#1f272f"/>
+  <rect x="49" y="33" width="4" height="3" fill="#1f272f"/>
+</svg>
