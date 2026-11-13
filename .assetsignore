@@ -9,3 +9,4 @@ worker.js
 wrangler.jsonc
 restaurants.json
 README.md
+data/README.md

@@ -52,3 +52,15 @@ python scraper/update.py            # kaikki toimipisteet
 python scraper/update.py pinninkatu # yksi
 npx wrangler dev                    # sivu ja Worker osoitteessa http://localhost:8787/pinninkatu
 ```
+
+## Lisenssit ja tietolähteet
+
+- **Koodi** on MIT-lisenssin alainen (`LICENSE`).
+- **Kuvitukset** kansiossa `assets/` (piirrokset, faviconit ja linkin esikatselukuvat) on
+  julkaistu lisenssillä [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fi).
+  Käyttö on sallittua, kun tekijä ja tämä repo mainitaan.
+- **Ruokalistadata ei kuulu projektin lisenssien piiriin.** Kansion `data/` listat, hinnat ja
+  muut tiedot kootaan ravintoloiden omilta sivuilta ja lounaslistapalveluista (mm. lounaat.info,
+  Compass Group, Sodexo), ja ne kuuluvat ravintoloille ja kyseisille palveluille. Jokaisen
+  ravintolan lähde näkyy sivulla ja datan `source`-kentässä. Ks. [`data/README.md`](data/README.md).
+- Projekti ei ole minkään ravintolan, kauppakeskuksen tai yrityksen virallinen palvelu.
