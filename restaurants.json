@@ -446,6 +446,23 @@
         "Kaupan lounasbuffet ja salaattibaari punnitaan. Päivän ruoat näkyvät K-Ruoan sivuilla."
       ],
       "group": "Tullintori"
+    },
+    "bistro-dindin": {
+      "name": "Bistro DinDín",
+      "address": "Tuomiokirkonkatu 38",
+      "city": "Tampere",
+      "lat": 61.49623,
+      "lon": 23.77056,
+      "hours": "11:00–15:00",
+      "price": "14,00 €",
+      "url": "https://bistrodindin.com/lounasmenu/",
+      "source": {
+        "type": "dindin",
+        "url": "https://bistrodindin.com/lounasmenu/"
+      },
+      "info": [
+        "Vietnamilainen lounas. Sisältää vegaanisen salaattipöydän sekä teen tai kahvin. Myös vegaanisena ja gluteenittomana."
+      ]
     }
   }
 }

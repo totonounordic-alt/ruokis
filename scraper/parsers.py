@@ -655,6 +655,70 @@ def parse_pancho_today(url: str, today: date) -> dict:
 
 
 # --------------------------------------------------------------------------
+# Bistro DinDín (kiinteä lounasmenu)
+# --------------------------------------------------------------------------
+DINDIN_DIETS = {"G": "G", "GP": "PG", "V": "Veg"}
+
+
+def parse_dindin(url: str) -> dict:
+    """Bistro DinDín: sama numeroitu lounasmenu joka arkipäivä, yksi lounashinta.
+
+    "1. Phở-keitto: nauta / kana / tofu (riisinuudeli, ...) (sis.kalaa, mereneläviä, VP, G)"
+    -> annos "Phở-keitto: nauta / kana / tofu", kuvaus = raaka-aineet, merkinnät G/GP/V.
+    """
+    menus = empty_week()
+    html = fetch_html(url)
+    if not html:
+        return menus
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "noscript", "svg", "header", "footer", "nav"]):
+        tag.decompose()
+    lines = [l.strip() for l in soup.get_text("\n").splitlines() if l.strip()]
+    price = None
+    for i, line in enumerate(lines):
+        if line.lower() == "lounas" and i + 1 < len(lines):
+            pm = re.match(r"^(\d{1,2})(?:[.,](\d{1,2}))?\s*€?$", lines[i + 1])
+            if pm:
+                price = format_price(pm)
+                break
+    blocks = []
+    for line in lines:
+        if re.match(r"^\d{1,2}\.\s", line):
+            blocks.append(line)
+        elif blocks and not re.match(r"^(V|G)\s*=", line):
+            if re.match(r"^lihojen alkuperä", line, re.IGNORECASE):
+                break
+            blocks[-1] += " " + line
+    items = []
+    for block in blocks:
+        text = re.sub(r"^\d{1,2}\.\s*", "", re.sub(r"\s+", " ", block))
+        parens = re.findall(r"\(([^()]*)\)", text)
+        title = re.sub(r"\([^()]*\)", "", text).strip(" :•")
+        title = re.sub(r"\s*•\s*", " / ", re.sub(r"\s{2,}", " ", title))
+        # "Riisinuudelisalaatti tarjoillaan talon kalakastikkeella ... Grillattua possua" -> "Riisinuudelisalaatti: grillattua possua"
+        title = re.sub(r"\s+tarjoillaan\b[^A-ZÅÄÖ]*\s(?=[A-ZÅÄÖ])", ": ", title)
+        diets, desc = [], []
+        for p in parens:
+            codes = [c.strip().upper() for c in p.split(",")]
+            if p.lower().startswith("sis") or all(c in ("VP", "G", "GP", "V") for c in codes):
+                diets += [DINDIN_DIETS[c] for c in codes if c in DINDIN_DIETS]
+            else:
+                desc.append(p.strip())
+        if not title:
+            continue
+        item = {"title": title, "diets": normalize_diets(diets), "price": price}
+        if desc:
+            item["desc"] = "; ".join(desc).capitalize()
+        items.append(item)
+    if items:
+        # Yksi kokonaisuus: menusta valitaan yksi annos lounashintaan
+        parts = [{"title": i["title"], "diets": i["diets"]} for i in items]
+        for d in range(5):
+            menus[str(d)] = [package("Lounasmenu (valitse yksi)", [dict(p) for p in parts], price)]
+    return menus
+
+
+# --------------------------------------------------------------------------
 # Tampere: Tullintori
 # --------------------------------------------------------------------------
 def _slash_diets(text: str) -> str:

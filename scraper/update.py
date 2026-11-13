@@ -27,6 +27,7 @@ SOURCE_LABELS = {
     "brander": "Brander",
     "pyymaen": "Pyymäen",
     "lospollos": "Los Pollos",
+    "dindin": "bistrodindin.com",
 }
 
 
@@ -53,6 +54,8 @@ def fetch_source(source: dict, today) -> dict:
         return {"menus": p.parse_brander(source["url"], today)}
     if kind == "pyymaen":
         return {"menus": p.parse_pyymaen(source["slug"], today)}
+    if kind == "dindin":
+        return {"menus": p.parse_dindin(source["url"])}
     if kind == "lospollos":
         return {"menus": p.parse_lospollos(today)}
     if kind == "sodexo":

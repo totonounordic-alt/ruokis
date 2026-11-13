@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "13.11.2026 klo 16.38",
+  "updated": "13.11.2026 klo 16.54",
   "week": "2026-W46",
   "restaurants": [
     {
@@ -3551,6 +3551,381 @@
             "diets": [],
             "price": "13,90 €",
             "desc": "Salaattivalikoima, lämpimät pääruoat (myös kasvisvaihtoehto), kahvi ja keksi. Päivän ruokia ei julkaista etukäteen."
+          }
+        ]
+      }
+    },
+    {
+      "id": "bistro-dindin",
+      "name": "Bistro DinDín",
+      "address": "Tuomiokirkonkatu 38",
+      "hours": "11:00–15:00",
+      "price": "14,00 €",
+      "lat": 61.49623,
+      "lon": 23.77056,
+      "distance": 427,
+      "url": "https://bistrodindin.com/lounasmenu/",
+      "source": {
+        "label": "bistrodindin.com",
+        "url": "https://bistrodindin.com/lounasmenu/"
+      },
+      "info": [
+        "Vietnamilainen lounas. Sisältää vegaanisen salaattipöydän sekä teen tai kahvin. Myös vegaanisena ja gluteenittomana."
+      ],
+      "menus": {
+        "0": [
+          {
+            "title": "Lounasmenu (valitse yksi)",
+            "diets": [],
+            "price": "14,00 €",
+            "parts": [
+              {
+                "title": "Phở-keitto: nauta / kana / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Phở on fire paistettua riisinuudelia: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Phở fun paistettua riisinuudelia kastikkeen kanssa: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Bò Kho - Vietnamilainen naudanlihapadan ja keiton mehevä risteytys",
+                "diets": []
+              },
+              {
+                "title": "Bún Bò Hue sitruunaruoholla maustettu riisinuudelikeitto - naudan potka- ja porsaanlihasiivuja",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Paistettua riisiä: kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Höyrystetty riisi",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisin kanssa: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisinuudelikeitto: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "DinDín paistettua vehnänuudelia: nauta / kana / katkarapu / tofu",
+                "diets": []
+              },
+              {
+                "title": "Riisinuudelisalaatti: Grillattua possua / kanaa / Paistettua nautaa / kanaa / tofua sitruunaruohon kanssa",
+                "diets": [
+                  "PG"
+                ]
+              }
+            ]
+          }
+        ],
+        "1": [
+          {
+            "title": "Lounasmenu (valitse yksi)",
+            "diets": [],
+            "price": "14,00 €",
+            "parts": [
+              {
+                "title": "Phở-keitto: nauta / kana / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Phở on fire paistettua riisinuudelia: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Phở fun paistettua riisinuudelia kastikkeen kanssa: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Bò Kho - Vietnamilainen naudanlihapadan ja keiton mehevä risteytys",
+                "diets": []
+              },
+              {
+                "title": "Bún Bò Hue sitruunaruoholla maustettu riisinuudelikeitto - naudan potka- ja porsaanlihasiivuja",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Paistettua riisiä: kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Höyrystetty riisi",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisin kanssa: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisinuudelikeitto: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "DinDín paistettua vehnänuudelia: nauta / kana / katkarapu / tofu",
+                "diets": []
+              },
+              {
+                "title": "Riisinuudelisalaatti: Grillattua possua / kanaa / Paistettua nautaa / kanaa / tofua sitruunaruohon kanssa",
+                "diets": [
+                  "PG"
+                ]
+              }
+            ]
+          }
+        ],
+        "2": [
+          {
+            "title": "Lounasmenu (valitse yksi)",
+            "diets": [],
+            "price": "14,00 €",
+            "parts": [
+              {
+                "title": "Phở-keitto: nauta / kana / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Phở on fire paistettua riisinuudelia: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Phở fun paistettua riisinuudelia kastikkeen kanssa: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Bò Kho - Vietnamilainen naudanlihapadan ja keiton mehevä risteytys",
+                "diets": []
+              },
+              {
+                "title": "Bún Bò Hue sitruunaruoholla maustettu riisinuudelikeitto - naudan potka- ja porsaanlihasiivuja",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Paistettua riisiä: kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Höyrystetty riisi",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisin kanssa: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisinuudelikeitto: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "DinDín paistettua vehnänuudelia: nauta / kana / katkarapu / tofu",
+                "diets": []
+              },
+              {
+                "title": "Riisinuudelisalaatti: Grillattua possua / kanaa / Paistettua nautaa / kanaa / tofua sitruunaruohon kanssa",
+                "diets": [
+                  "PG"
+                ]
+              }
+            ]
+          }
+        ],
+        "3": [
+          {
+            "title": "Lounasmenu (valitse yksi)",
+            "diets": [],
+            "price": "14,00 €",
+            "parts": [
+              {
+                "title": "Phở-keitto: nauta / kana / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Phở on fire paistettua riisinuudelia: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Phở fun paistettua riisinuudelia kastikkeen kanssa: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Bò Kho - Vietnamilainen naudanlihapadan ja keiton mehevä risteytys",
+                "diets": []
+              },
+              {
+                "title": "Bún Bò Hue sitruunaruoholla maustettu riisinuudelikeitto - naudan potka- ja porsaanlihasiivuja",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Paistettua riisiä: kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Höyrystetty riisi",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisin kanssa: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisinuudelikeitto: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "DinDín paistettua vehnänuudelia: nauta / kana / katkarapu / tofu",
+                "diets": []
+              },
+              {
+                "title": "Riisinuudelisalaatti: Grillattua possua / kanaa / Paistettua nautaa / kanaa / tofua sitruunaruohon kanssa",
+                "diets": [
+                  "PG"
+                ]
+              }
+            ]
+          }
+        ],
+        "4": [
+          {
+            "title": "Lounasmenu (valitse yksi)",
+            "diets": [],
+            "price": "14,00 €",
+            "parts": [
+              {
+                "title": "Phở-keitto: nauta / kana / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Phở on fire paistettua riisinuudelia: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Phở fun paistettua riisinuudelia kastikkeen kanssa: nauta / kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Bò Kho - Vietnamilainen naudanlihapadan ja keiton mehevä risteytys",
+                "diets": []
+              },
+              {
+                "title": "Bún Bò Hue sitruunaruoholla maustettu riisinuudelikeitto - naudan potka- ja porsaanlihasiivuja",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Paistettua riisiä: kana / katkarapu / tofu",
+                "diets": [
+                  "PG"
+                ]
+              },
+              {
+                "title": "Höyrystetty riisi",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisin kanssa: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "Curry riisinuudelikeitto: kana / katkarapu / tofu",
+                "diets": [
+                  "G"
+                ]
+              },
+              {
+                "title": "DinDín paistettua vehnänuudelia: nauta / kana / katkarapu / tofu",
+                "diets": []
+              },
+              {
+                "title": "Riisinuudelisalaatti: Grillattua possua / kanaa / Paistettua nautaa / kanaa / tofua sitruunaruohon kanssa",
+                "diets": [
+                  "PG"
+                ]
+              }
+            ]
           }
         ]
       }
