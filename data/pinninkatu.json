@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "13.11.2026 klo 16.25",
+  "updated": "13.11.2026 klo 16.38",
   "week": "2026-W46",
   "restaurants": [
     {
@@ -179,6 +179,7 @@
         "label": "tullintori.fi",
         "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
       },
+      "group": "Tullintori",
       "menus": {
         "0": [
           {
@@ -266,6 +267,7 @@
         "label": "Pancho Villa",
         "url": "https://panchovilla.fi/ravintolat/tampere-tullintori/"
       },
+      "group": "Tullintori",
       "info": [
         "Sivulla on vain päivän lista, joten viikon muut päivät näkyvät sitä mukaa kuin ne julkaistaan."
       ],
@@ -366,6 +368,7 @@
         "label": "tullintori.fi",
         "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
       },
+      "group": "Tullintori",
       "menus": {
         "0": [
           {
@@ -423,6 +426,7 @@
         "label": "tullintori.fi",
         "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
       },
+      "group": "Tullintori",
       "info": [
         "Kaupan lounasbuffet ja salaattibaari punnitaan. Päivän ruoat näkyvät K-Ruoan sivuilla."
       ],
@@ -518,6 +522,7 @@
         "label": "Brander",
         "url": "https://www.brander.fi/kahvilat/tullintorin-lounaslista/"
       },
+      "group": "Tullintori",
       "info": [
         "Salaatti- ja keittolounas, hinnat alkaen 10,90 €."
       ],
@@ -563,7 +568,7 @@
       "id": "babas-kitchen",
       "name": "Baba’s Kitchen",
       "address": "Tullikatu 6 (Tullintori, 1. krs)",
-      "hours": null,
+      "hours": "10:45–15:00",
       "price": "14,00 €",
       "lat": 61.49728,
       "lon": 23.77684,
@@ -573,6 +578,7 @@
         "label": "tullintori.fi",
         "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
       },
+      "group": "Tullintori",
       "info": [
         "With Fries- ja Iskender-annokset eivät kuulu lounastarjoukseen."
       ],
@@ -663,6 +669,7 @@
         "label": "Pyymäen",
         "url": "https://www.pyymaen.fi/kahvilat/toimipisteet/pyymaen-tullintori/"
       },
+      "group": "Tullintori",
       "info": [
         "Lounas sisältää leipävalikoiman, veden sekä kahvin tai teen."
       ],
@@ -1549,6 +1556,7 @@
         "label": "tullintori.fi",
         "url": "https://tullintori.fi/kahvilat-ja-ravintolat/lounaat/"
       },
+      "group": "Tullintori",
       "info": [
         "Lounas tiistaista lauantaihin, maanantaina ei lounasta."
       ],
@@ -1838,6 +1846,7 @@
         "label": "Los Pollos",
         "url": "https://pollos.fi/lounas"
       },
+      "group": "Tullintori",
       "info": [
         "Lounaaseen sisältyy kahvi ja tee."
       ],

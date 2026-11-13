@@ -57,7 +57,11 @@
         "marco-boulangerie",
         "zhuang-yuan-lou",
         "k-market-tullintori"
-      ]
+      ],
+      "groups": {
+        "label": "Alue",
+        "other": "Muut"
+      }
     }
   }
 }

@@ -216,7 +216,8 @@
       },
       "info": [
         "Sivulla on vain päivän lista, joten viikon muut päivät näkyvät sitä mukaa kuin ne julkaistaan."
-      ]
+      ],
+      "group": "Tullintori"
     },
     "los-pollos": {
       "name": "Los Pollos Grill & Bar",
@@ -233,7 +234,8 @@
       },
       "info": [
         "Lounaaseen sisältyy kahvi ja tee."
-      ]
+      ],
+      "group": "Tullintori"
     },
     "pyymaen-tullintori": {
       "name": "Pyymäen Tullintori",
@@ -251,7 +253,8 @@
       },
       "info": [
         "Lounas sisältää leipävalikoiman, veden sekä kahvin tai teen."
-      ]
+      ],
+      "group": "Tullintori"
     },
     "brander-tullintori": {
       "name": "Brander Tullintori",
@@ -268,7 +271,8 @@
       },
       "info": [
         "Salaatti- ja keittolounas, hinnat alkaen 10,90 €."
-      ]
+      ],
+      "group": "Tullintori"
     },
     "pizza-hut-tullintori": {
       "name": "Pizza Hut Tullintori",
@@ -297,7 +301,8 @@
             "desc": "Hinta alkaen. Ensimmäinen täyte sisältyy hintaan, lisätäytteet 1–2 €. Kahvi, tee ja cinnamon sticksit sisältyvät."
           }
         ]
-      }
+      },
+      "group": "Tullintori"
     },
     "zhuang-yuan-lou": {
       "name": "Zhuang Yuan Lou",
@@ -320,7 +325,8 @@
             "desc": "Kiinalainen buffet. Lapset 7–10 v. 10 €."
           }
         ]
-      }
+      },
+      "group": "Tullintori"
     },
     "marco-boulangerie": {
       "name": "Marco Boulangerie / Cuisine",
@@ -364,7 +370,8 @@
       },
       "info": [
         "Lounas tiistaista lauantaihin, maanantaina ei lounasta."
-      ]
+      ],
+      "group": "Tullintori"
     },
     "babas-kitchen": {
       "name": "Baba’s Kitchen",
@@ -372,7 +379,7 @@
       "city": "Tampere",
       "lat": 61.49728,
       "lon": 23.77684,
-      "hours": null,
+      "hours": "10:45–15:00",
       "price": "14,00 €",
       "url": "https://tullintori.fi/liike/babas-kitchen/",
       "source": {
@@ -396,7 +403,8 @@
       },
       "info": [
         "With Fries- ja Iskender-annokset eivät kuulu lounastarjoukseen."
-      ]
+      ],
+      "group": "Tullintori"
     },
     "k-market-tullintori": {
       "name": "K-Market Tullintori",
@@ -436,7 +444,8 @@
       },
       "info": [
         "Kaupan lounasbuffet ja salaattibaari punnitaan. Päivän ruoat näkyvät K-Ruoan sivuilla."
-      ]
+      ],
+      "group": "Tullintori"
     }
   }
 }

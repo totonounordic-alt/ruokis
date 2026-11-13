@@ -143,6 +143,8 @@ def main():
                 "url": spec.get("url"),
                 "source": {"label": source.get("label") or SOURCE_LABELS.get(source["type"], source["type"]), "url": source.get("url")},
             }
+            if spec.get("group"):
+                rest["group"] = spec["group"]
             for key in ("info", "staticNote"):
                 if spec.get(key) or result.get(key):
                     rest[key] = result.get(key) or spec.get(key)
