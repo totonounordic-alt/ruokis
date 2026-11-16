@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "16.11.2026 klo 14.48",
+  "updated": "16.11.2026 klo 18.24",
   "week": "2026-W47",
   "restaurants": [
     {
@@ -2022,13 +2022,13 @@
         ],
         "1": [
           {
-            "title": "Salami-kanatasku",
+            "title": "Kanarieskatasku salsa rosa rapusalaatin kera",
             "diets": [
               "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloitu perunarieska, kotimaista kananpoikaa ja salaattia & italialaista tryffelisalamia, salsaa ja tryffelimajoneesia."
+            "desc": "Pariloitu perunarieska, kotimaista kananpoikaa ja salaattia & ravunpyrstöjä salsa rosa kastikkeessa."
           },
           {
             "title": "Suomen parasta grillikanaa avotuligrillistä",
@@ -2037,7 +2037,7 @@
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Duchesse-perunaa, tomaatti-mozzarellasalaattia & luumutomaattikastiketta."
+            "desc": "Lämpimiä kasviksia, lohkoperunoita ja paahdettu lintuliemi."
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2055,6 +2055,16 @@
             ],
             "price": "14,90 €",
             "desc": "Rapeaksi paistettua paneroitua kananpoikaa, cajun-perunoita, salaattia, pikkelöityä punasipulia ja avokadodippi."
+          },
+          {
+            "title": "Kevytlounas - kurpitsasosekeittoa",
+            "diets": [
+              "PG",
+              "L",
+              "Veg"
+            ],
+            "price": "9,90 €",
+            "desc": "Samettisen pehmeää kurpitsasosekeittoa, leipää ja salaattia grillatulla kanalla + 4€"
           }
         ],
         "2": [
@@ -2065,25 +2075,15 @@
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Kermaisella pinaattimuhennoksella täytettyä uuniperunaa, salaattia, pikkeleitä ja tummaa sipulikastiketta."
+            "desc": "Yrttituorejuustolla täytettyä uuniperunaa, tomaatti-mozzarellasalaattia ja tummaa sipulikastiketta."
           },
           {
-            "title": "Curry-ananas kanatasku",
+            "title": "Bechamel burrito",
             "diets": [
-              "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloitua perunarieskaa, salaattia, paprikaa, kotimaista kananpoikaa sekä salsaa, currymajoa ja grillattua ananasta."
-          },
-          {
-            "title": "Omenainen possupata",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "13,90 €",
-            "desc": "Kotimaista porsaan ulkofilettä omenoiden ja sipuleiden kera haudutettuna. lisäksi persiljaperunoita ja punajuurta."
+            "desc": "Pariloitu perunarieska täytettynä pulled-kanalla & sipuli-paprikapaistoksella sekä kuorrutettuna bechamel-kastikkeella ja juustoilla. lisäksi salaattia, rucolaa & oliiveja."
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2096,21 +2096,20 @@
         ],
         "3": [
           {
-            "title": "Kantarelli-kanatasku",
+            "title": "Kanatasku",
             "diets": [
               "PG",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Pariloidun ohutrieskan välissä salaattia ja grillattua kanaa kermaisen kantarellimuhennoksen kera."
+            "price": "13,90 €"
           },
           {
-            "title": "Beef canneloni",
+            "title": "Pasta bolognese",
             "diets": [
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pitkään haudutetulla rotukarjan beef ragulla täytettyjä canneloneja bechamel-kastikkeella ja juustoilla kuorrutettuna."
+            "desc": "Pitkään haudutettua rotukarjan bolognese kastiketta, pastaa, rucolaa ja parmesania."
           },
           {
             "title": "Suomen parasta grillikanaa avotuligrillistä",
@@ -2119,7 +2118,7 @@
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Lohkoperunoita, rakuunaporkkanoita ja kermaista valkosipulikastiketta."
+            "desc": "Kurpitsa-perunasosetta, pariloituja herkkusieniä & paprikaa sekä paahdettu lintuliemi."
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2137,17 +2136,15 @@
               "G",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Patatas bravas -perunoita, salaattia ja paahdettu lintuliemi."
+            "price": "13,90 €"
           },
           {
-            "title": "Gorgonzola-kanatasku",
+            "title": "Kanatasku",
             "diets": [
               "PG",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Grillikanaa, sipulia & paprikaa ja salaattia pariloidussa ohutrieskassa. lisäksi gorgonzola-juustoa ja omena-selleri hilloketta."
+            "price": "13,90 €"
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2158,21 +2155,12 @@
             "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
           },
           {
-            "title": "Chicken tandoori",
+            "title": "Karjalanpaisti",
             "diets": [
               "G",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Kotimaista kananpoikaa, sipuleita ja paprikoita lempeän tulisessa tandoori-kastikkeessa, lisäksi riisiä, hapankermaa, seesaminsiemeniä ja tuoretta chiliä."
-          },
-          {
-            "title": "Beef canneloni",
-            "diets": [
-              "L"
-            ],
-            "price": "13,90 €",
-            "desc": "Pitkään haudutetulla rotukarjan beef ragulla täytettyjä canneloneja bechamel-kastikkeella ja juustoilla kuorrutettuna."
+            "price": "0,00 €"
           }
         ]
       }
