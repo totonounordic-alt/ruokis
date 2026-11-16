@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "16.11.2026 klo 10.46",
+  "updated": "16.11.2026 klo 14.48",
   "week": "2026-W47",
   "restaurants": [
     {
@@ -4014,8 +4014,11 @@
             "price": "14,00 €"
           },
           {
-            "title": "VIIKON SPESIAALI Possunlihakääryle pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [],
+            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "24,50 €"
           },
           {
@@ -4047,8 +4050,11 @@
             "price": "14,00 €"
           },
           {
-            "title": "VIIKON SPESIAALI Possunlihakääryle pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [],
+            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "24,50 €"
           },
           {
@@ -4080,8 +4086,11 @@
             "price": "14,00 €"
           },
           {
-            "title": "VIIKON SPESIAALI Possunlihakääryle pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [],
+            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "24,50 €"
           },
           {
@@ -4113,8 +4122,11 @@
             "price": "14,00 €"
           },
           {
-            "title": "VIIKON SPESIAALI Possunlihakääryle pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [],
+            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "24,50 €"
           },
           {
@@ -4146,8 +4158,11 @@
             "price": "14,00 €"
           },
           {
-            "title": "VIIKON SPESIAALI Possunlihakääryle pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [],
+            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "24,50 €"
           },
           {
