@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "17.11.2026 klo 19.07",
+  "updated": "17.11.2026 klo 20.40",
   "week": "2026-W47",
   "restaurants": [
     {
@@ -3184,7 +3184,8 @@
         "url": "https://www.lounaat.info/lounas/semafori/tampere"
       },
       "info": [
-        "Lounasbuffetin hinta 13,80 €."
+        "Lounasbuffetin hinta 13,80 €.",
+        "Monipuolinen pizza- ja hotwings buffet"
       ],
       "menus": {
         "0": [
@@ -3218,11 +3219,6 @@
               "G",
               "L"
             ],
-            "price": null
-          },
-          {
-            "title": "Monipuolinen pizza- ja hotwings buffet",
-            "diets": [],
             "price": null
           },
           {
@@ -3266,11 +3262,6 @@
             "price": null
           },
           {
-            "title": "Monipuolinen pizza- ja hotwings buffet",
-            "diets": [],
-            "price": null
-          },
-          {
             "title": "Jälkiruokana talon porkkanakakkua",
             "diets": [
               "L"
@@ -3280,8 +3271,33 @@
         ],
         "2": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
-            "diets": [],
+            "title": "Jauhelihakeitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Punaviinissä haudutettua naudanlihaa ja bulgur",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Italialainen Kasvislasagne",
+            "diets": [
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Jälkiruokana samettista suklaakakkua",
+            "diets": [
+              "L"
+            ],
             "price": null
           }
         ],
