@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "18.11.2026 klo 18.44",
+  "updated": "18.11.2026 klo 20.14",
   "week": "2026-W47",
   "restaurants": [
     {
@@ -3464,8 +3464,47 @@
         ],
         "3": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Hernekeitto & pannari",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Ylikypsää Possua juureksilla",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Trooppinen Kanawokki ja riisi",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Tomaattinen Papupata",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Monipuolinen pizza- ja hotwingsbuffet",
             "diets": [],
+            "price": null
+          },
+          {
+            "title": "Jälkiruokana pannari ja tiramisu",
+            "diets": [
+              "L"
+            ],
             "price": null
           }
         ],
