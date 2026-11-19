@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "19.11.2026 klo 15.16",
+  "updated": "19.11.2026 klo 18.03",
   "week": "2026-W47",
   "restaurants": [
     {
@@ -2761,20 +2761,31 @@
         ],
         "4": [
           {
+            "title": "Perjantain spessu  -  mausteinen biryani riisi - possu tai kana",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": "15,00 €",
+            "desc": "Biryani on mausteinen Basmatiriisii-ruoka, jonka kanssa tarjoamme mm. kananmunaa, tuoreita yrttejä ja paahdettuja Edamame-papuja. Valitse lisukkeeksi Los Pollos Grillikanaa tai miedossa leppäsavussa kokonaisena palvattua possua."
+          },
+          {
             "title": "Suomen parasta grillikanaa avotuligrillistä",
             "diets": [
               "G",
               "L"
             ],
-            "price": "13,90 €"
+            "price": "13,90 €",
+            "desc": "Ranskalaisia ja salaattia & savupaprikakastiketta sekä paahdettu lintuliemi"
           },
           {
-            "title": "Kanatasku",
+            "title": "Mozzarella kanatasku",
             "diets": [
               "PG",
               "L"
             ],
-            "price": "13,90 €"
+            "price": "13,90 €",
+            "desc": "Pariloidun ohutrieskan kera kotimaista kananpoikaa, salaattia, salsaa ja sipuli-paprikapaistosta & sulaa mozzarellajuustoa"
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
