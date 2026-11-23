@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "23.11.2026 klo 11.16",
+  "updated": "23.11.2026 klo 16.43",
   "week": "2026-W48",
   "restaurants": [
     {
@@ -1274,7 +1274,7 @@
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Mausteista linssipataa, korianteri-soijagurttia ja Bataattiranskalaisia",
+                "title": "Kevätrullia (8kpl/annos, EXTRA 0,50e) ja korianterisoijajugurttia",
                 "diets": [
                   "M"
                 ]
@@ -1304,7 +1304,7 @@
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Tempuraturskaa 3kpl/annos, Ranch kastiketta ja riisiä",
+                "title": "Kalapuikkoja 6kpl/annos, Ranch kastiketta ja riisiä",
                 "diets": [
                   "L"
                 ]
@@ -2999,22 +2999,103 @@
         ],
         "1": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Kirkas Lohikeitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Maalaishenkinen Possupannu ja kermaperunat",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Talon Jauhelihalasagne",
+            "diets": [
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Värikäs Kasviswokki",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Monipuolinen pizza- ja hotwings buffet",
             "diets": [],
+            "price": null
+          },
+          {
+            "title": "Jälkiruokana juustokakkua ja appelsiinivanukasta",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": null
           }
         ],
         "2": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Kermainen Kasvissosekeitto",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Mehevä Tandoorikana ja riisi",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Herkulliset Jauhelihatäytteiset Paprikat",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Välimerellinen Pestopasta",
+            "diets": [
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Monipuolinen pizza- ja hotwings buffet",
             "diets": [],
+            "price": null
+          },
+          {
+            "title": "Jälkiruokana tiikerikakkua ja marjajogurttia",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": null
           }
         ],
         "3": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
-            "diets": [],
+            "title": "Hernekeitto ja pannari",
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": null
           }
         ],
