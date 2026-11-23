@@ -1,7 +1,7 @@
 {
   "site": "pinninkatu",
-  "updated": "20.11.2026 klo 19.54",
-  "week": "2026-W47",
+  "updated": "23.11.2026 klo 11.16",
+  "week": "2026-W48",
   "restaurants": [
     {
       "id": "myllarit",
@@ -29,7 +29,7 @@
       "menus": {
         "0": [
           {
-            "title": "Teriyakikanaa",
+            "title": "Pippurista kanapataa",
             "diets": [
               "G",
               "L"
@@ -37,7 +37,7 @@
             "price": null
           },
           {
-            "title": "Seitä katkarapukastikkeessa",
+            "title": "Välimerellistä seitä",
             "diets": [
               "G",
               "L"
@@ -55,15 +55,14 @@
         ],
         "1": [
           {
-            "title": "Lihapullia ja pekonikastiketta",
+            "title": "Porsaan leikkeitä ja paprikamajoneesia",
             "diets": [
-              "G",
               "L"
             ],
             "price": null
           },
           {
-            "title": "Kookoskalaa",
+            "title": "Puna-ahventa kapris-voikastikkeessa",
             "diets": [
               "G",
               "L"
@@ -81,7 +80,7 @@
         ],
         "2": [
           {
-            "title": "Kaalikääryleitä ja puolukkahilloa",
+            "title": "Porsaan ulkofileetä sinappikastikkeessa",
             "diets": [
               "G",
               "L"
@@ -89,7 +88,32 @@
             "price": null
           },
           {
-            "title": "Lohikastiketta",
+            "title": "Kalaleikkeitä ja remoulade-kastiketta",
+            "diets": [
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Valkosipuliperunoita",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          }
+        ],
+        "3": [
+          {
+            "title": "Jauhelihamureketta kermakastikkeessa",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Pinaattikalaa",
             "diets": [
               "G",
               "L"
@@ -105,41 +129,9 @@
             "price": null
           }
         ],
-        "3": [
-          {
-            "title": "Porsaan kassleria bbq -kastikkeessa",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Tempurapaneroitua seitä ja sitruskermaviiliä",
-            "diets": [
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Valkosipuliperunoita",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          }
-        ],
         "4": [
           {
-            "title": "Paneroitua kanaa",
-            "diets": [
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Cheddargratinoitua seitä",
+            "title": "Makkarastroganoffia",
             "diets": [
               "G",
               "L"
@@ -147,7 +139,7 @@
             "price": null
           },
           {
-            "title": "Krossattua perunaa",
+            "title": "Lohikiusausta",
             "diets": [
               "G",
               "L"
@@ -155,7 +147,15 @@
             "price": null
           },
           {
-            "title": "Pariloitua tofua, purjo-paprikamuhennosta ja lohkoperunoita",
+            "title": "Keitettyjä perunoita",
+            "diets": [
+              "G",
+              "M"
+            ],
+            "price": null
+          },
+          {
+            "title": "Sieni-juuresrisottoa",
             "diets": [
               "G",
               "Veg"
@@ -322,7 +322,7 @@
               "L"
             ],
             "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Tiistai 17.11."
+            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Tiistai 24.11."
           },
           {
             "title": "Meksikolounas",
@@ -374,7 +374,7 @@
               "L"
             ],
             "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Keskiviikko 18.11."
+            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Keskiviikko 25.11."
           },
           {
             "title": "Meksikolounas",
@@ -425,7 +425,7 @@
               "L"
             ],
             "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Torstai 19.11."
+            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Torstai 26.11."
           },
           {
             "title": "Meksikolounas",
@@ -477,7 +477,7 @@
               "L"
             ],
             "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Perjantai 20.11."
+            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Perjantai 27.11."
           },
           {
             "title": "Meksikolounas",
@@ -534,528 +534,30 @@
         ],
         "1": [
           {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Aurajuusto-pekoni Quesadilla Rapean tortillan välissä tomaattikastiketta, Pico de Galloa, pekonimurua, Port Salut -juustoa ja aurajuustoa."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Keskiviikko 18.11."
-          },
-          {
-            "title": "Meksikolounas",
-            "diets": [
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Wrap paneroidulla kanalla Tortillan välissä paneroitua kanaa, chipotlemajoneesia, salaattia, maustekurkkua ja nachomurua."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Torstai 19.11."
-          },
-          {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Chili con Carne Burrito Tortillan sisällä maissiriisiä, Pico de Galloa, nachomurua ja lämmintä juustokastiketta. Päällä Fresh Mexican -kastiketta ja Salsa Rojaa."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Perjantai 20.11."
-          },
-          {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Bocadillo paneroidulla kanalla Rapean leivän päällä salaattia, Salsa Rojaa, lämmintä juustokastiketta, Pico de Galloa ja ruohosipulia."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia."
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
           }
         ],
         "2": [
           {
-            "title": "Meksikolounas",
-            "diets": [
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Wrap paneroidulla kanalla Tortillan välissä paneroitua kanaa, chipotlemajoneesia, salaattia, maustekurkkua ja nachomurua."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Torstai 19.11."
-          },
-          {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Chili con Carne Burrito Tortillan sisällä maissiriisiä, Pico de Galloa, nachomurua ja lämmintä juustokastiketta. Päällä Fresh Mexican -kastiketta ja Salsa Rojaa."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Perjantai 20.11."
-          },
-          {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Bocadillo paneroidulla kanalla Rapean leivän päällä salaattia, Salsa Rojaa, lämmintä juustokastiketta, Pico de Galloa ja ruohosipulia."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia."
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
           }
         ],
         "3": [
           {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Chili con Carne Burrito Tortillan sisällä maissiriisiä, Pico de Galloa, nachomurua ja lämmintä juustokastiketta. Päällä Fresh Mexican -kastiketta ja Salsa Rojaa."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia. Perjantai 20.11."
-          },
-          {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Bocadillo paneroidulla kanalla Rapean leivän päällä salaattia, Salsa Rojaa, lämmintä juustokastiketta, Pico de Galloa ja ruohosipulia."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia."
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
           }
         ],
         "4": [
           {
-            "title": "Meksikolounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "13,70 €",
-            "desc": "Bocadillo paneroidulla kanalla Rapean leivän päällä salaattia, Salsa Rojaa, lämmintä juustokastiketta, Pico de Galloa ja ruohosipulia."
-          },
-          {
-            "title": "Savujuusto-pekoniburger",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "10,00 €",
-            "desc": "Ranskalaiset +2 €, dippi +2 €."
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "12,90 €",
-            "desc": "Kana / kasvis (tupla 15,40 €)"
-          },
-          {
-            "title": "Lounasburgerit",
-            "diets": [
-              "PG"
-            ],
-            "price": "13,70 €",
-            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
-          },
-          {
-            "title": "Parilalounas",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
-          },
-          {
-            "title": "Panchon poke",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,50 €",
-            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia."
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
+            "price": null
           }
         ]
       }
@@ -1235,15 +737,7 @@
       "menus": {
         "0": [
           {
-            "title": "Italialaista jauhelihakeittoa",
-            "diets": [
-              "G",
-              "M"
-            ],
-            "price": null
-          },
-          {
-            "title": "Päivän kasviskeittoa",
+            "title": "Pinaattikeittoa ja kananmunaa",
             "diets": [
               "G",
               "L"
@@ -1253,7 +747,7 @@
         ],
         "1": [
           {
-            "title": "Isoäidin kanakeittoa",
+            "title": "Kanakeittoa",
             "diets": [
               "G",
               "L"
@@ -1289,17 +783,24 @@
         ],
         "3": [
           {
-            "title": "Tomaatti-linssikeittoa",
+            "title": "Hernekeittoa L, G ja jälkkäriä",
+            "diets": [
+              "L"
+            ],
+            "price": null
+          },
+          {
+            "title": "Päivän kasviskeitto",
             "diets": [
               "G",
-              "M"
+              "L"
             ],
             "price": null
           }
         ],
         "4": [
           {
-            "title": "Porkkana-koskenlaskijakeittoa",
+            "title": "Kasvissosekeittoa ja siemeniä",
             "diets": [
               "G",
               "L"
@@ -1421,7 +922,7 @@
       "menus": {
         "0": [
           {
-            "title": "Päivän keitto: Siskonmakkarakeitto",
+            "title": "Päivän keitto: Gulassikeitto",
             "diets": [
               "G",
               "L"
@@ -1486,7 +987,7 @@
         ],
         "1": [
           {
-            "title": "Päivän keitto: Lihakeitto",
+            "title": "Päivän keitto: Ahvenkeitto",
             "diets": [
               "G",
               "L"
@@ -1551,7 +1052,7 @@
         ],
         "2": [
           {
-            "title": "Päivän keitto: Lapin ukon keitto",
+            "title": "Päivän keitto: Kookoskanakeitto",
             "diets": [
               "G",
               "L"
@@ -1616,10 +1117,10 @@
         ],
         "3": [
           {
-            "title": "Päivän keitto: Hernekeitto",
+            "title": "Päivän keitto: Pinaattikeitto",
             "diets": [
               "G",
-              "M"
+              "L"
             ],
             "price": "11,90 €"
           },
@@ -1773,7 +1274,7 @@
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Pohjoisafrikkalaista kasvispataa,\nPitaleipä (1kpl/ann) ja\nsoijajogurttia",
+                "title": "Mausteista linssipataa, korianteri-soijagurttia ja Bataattiranskalaisia",
                 "diets": [
                   "M"
                 ]
@@ -1783,15 +1284,13 @@
           {
             "title": "Lounas",
             "diets": [
-              "G",
               "L"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Yrttipaahdettua broilerinpaistia (1kpl/ann), paprikakastiketta\nja perunaa",
+                "title": "Pinaattiohukaisia (7kpl/ann),\npuolukkasurvosta\nja keitettyjä perunoita",
                 "diets": [
-                  "G",
                   "L"
                 ]
               }
@@ -1800,16 +1299,14 @@
           {
             "title": "Lounas",
             "diets": [
-              "G",
-              "M"
+              "L"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Tandooripossua ja riisiä",
+                "title": "Tempuraturskaa 3kpl/annos, Ranch kastiketta ja riisiä",
                 "diets": [
-                  "G",
-                  "M"
+                  "L"
                 ]
               }
             ]
@@ -1823,7 +1320,7 @@
             "price": "8,50 €",
             "parts": [
               {
-                "title": "Palsternakkasosekeittoa ja Napas",
+                "title": "Juuressosekeittoa ja Napas",
                 "diets": [
                   "G",
                   "M"
@@ -1833,18 +1330,12 @@
           },
           {
             "title": "Lounassalaatti",
-            "diets": [
-              "G",
-              "M"
-            ],
+            "diets": [],
             "price": null,
             "parts": [
               {
-                "title": "Savulohi Take Away salaatti",
-                "diets": [
-                  "G",
-                  "M"
-                ]
+                "title": "Broiler Caesar Take Away Salaatti",
+                "diets": []
               }
             ]
           },
@@ -1872,7 +1363,7 @@
             "price": "1,30 €",
             "parts": [
               {
-                "title": "Hedelmärahka",
+                "title": "Mansikkarahkaa",
                 "diets": [
                   "G",
                   "L"
@@ -1885,28 +1376,13 @@
           {
             "title": "Vegaani lounas",
             "diets": [
-              "M"
-            ],
-            "price": "9,60 €",
-            "parts": [
-              {
-                "title": "Välimerellistä uunipastaa",
-                "diets": [
-                  "M"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Lounas",
-            "diets": [
               "G",
               "M"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Broilerikebabia tomaattikastikkeessa, jalapenoja ja riisiä",
+                "title": "Kukkakaali-mungpapucurrya ja Basmatiriisiä",
                 "diets": [
                   "G",
                   "M"
@@ -1922,7 +1398,22 @@
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Liha-makaronilaatikkoa",
+                "title": "Jauhelihapihvit (2kpl/ann), pippurikastiketta ja perunaa",
+                "diets": [
+                  "L"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Lounas",
+            "diets": [
+              "L"
+            ],
+            "price": "9,60 €",
+            "parts": [
+              {
+                "title": "Broilerilasagnettea",
                 "diets": [
                   "L"
                 ]
@@ -1938,7 +1429,7 @@
             "price": "8,50 €",
             "parts": [
               {
-                "title": "Juuressosekeitto ja napas",
+                "title": "Hernesosekeittoa ja Napas",
                 "diets": [
                   "G",
                   "M"
@@ -1950,12 +1441,29 @@
             "title": "Lounassalaatti",
             "diets": [
               "G",
+              "L"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Take Away salaatti",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Lounaspatonki",
+            "diets": [
+              "G",
               "M"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Savulohi Take Away salaatti",
+                "title": "Lounaspatonki Tonnikalasta",
                 "diets": [
                   "G",
                   "M"
@@ -1964,26 +1472,17 @@
             ]
           },
           {
-            "title": "Lounaspatonki",
-            "diets": [],
-            "price": null,
-            "parts": [
-              {
-                "title": "Lounaspatonki",
-                "diets": []
-              }
-            ]
-          },
-          {
             "title": "Jälkiruoka",
             "diets": [
+              "G",
               "L"
             ],
             "price": "1,30 €",
             "parts": [
               {
-                "title": "Kardemumma-marjapaistosta ja vaniljakastiketta",
+                "title": "Persikkajogurttia",
                 "diets": [
+                  "G",
                   "L"
                 ]
               }
@@ -1999,7 +1498,7 @@
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Chilillä höystettyä kasvispataa Sitruuna-soijagurttikastiketta ja riisiä",
+                "title": "Panko-seesampaneroituja soija-kasvispihvejä (1kpl/ann), vegaanista BBQ kastiketta ja perunaa",
                 "diets": [
                   "M"
                 ]
@@ -2009,16 +1508,14 @@
           {
             "title": "Lounas",
             "diets": [
-              "G",
-              "L"
+              "M"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Lohipyöryköitä 7kpl/annos, ruohosipuli-kermaviilikastiketta ja perunaa",
+                "title": "Pasta Bolognesea",
                 "diets": [
-                  "G",
-                  "L"
+                  "M"
                 ]
               }
             ]
@@ -2026,16 +1523,14 @@
           {
             "title": "Lounas",
             "diets": [
-              "G",
-              "L"
+              "M"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Pähkinäinen Butter Chicken",
+                "title": "Broiler Kormaa ja täysjyväkauraa",
                 "diets": [
-                  "G",
-                  "L"
+                  "M"
                 ]
               }
             ]
@@ -2049,7 +1544,7 @@
             "price": "8,50 €",
             "parts": [
               {
-                "title": "Kukkakaali-parsakaalikeittoa ja Napas",
+                "title": "Kevätsipuli-perunasosekeittoa ja Napas",
                 "diets": [
                   "G",
                   "M"
@@ -2061,15 +1556,15 @@
             "title": "Lounassalaatti",
             "diets": [
               "G",
-              "M"
+              "L"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Savulohi Take Away salaatti",
+                "title": "Take Away Salaatti",
                 "diets": [
                   "G",
-                  "M"
+                  "L"
                 ]
               }
             ]
@@ -2077,14 +1572,14 @@
           {
             "title": "Lounaspatonki",
             "diets": [
-              "M"
+              "G"
             ],
             "price": null,
             "parts": [
               {
                 "title": "Lounaspatonki",
                 "diets": [
-                  "M"
+                  "G"
                 ]
               }
             ]
@@ -2092,14 +1587,14 @@
           {
             "title": "Jälkiruoka",
             "diets": [
-              "L"
+              "G"
             ],
             "price": "1,30 €",
             "parts": [
               {
-                "title": "Ahvenanmaan pannukakku ja hilloa",
+                "title": "Cappuccinomoussea",
                 "diets": [
-                  "L"
+                  "G"
                 ]
               }
             ]
@@ -2109,15 +1604,13 @@
           {
             "title": "Vegaani lounas",
             "diets": [
-              "G",
               "M"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Aurinkotomaatti-Soijakastiketta ja perunaa",
+                "title": "Chilipaahdettua myskikurpitsaa, papuja ja riisiä, hummusta kikherneistä ja paahdettuja maapähkinöitä",
                 "diets": [
-                  "G",
                   "M"
                 ]
               }
@@ -2125,35 +1618,23 @@
           },
           {
             "title": "Lounas",
-            "diets": [
-              "G",
-              "M"
-            ],
+            "diets": [],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Pyttipannua ja paistettu kananmuna",
-                "diets": [
-                  "G",
-                  "M"
-                ]
+                "title": "Hernekeittoa, pannukakkua ja hilloa",
+                "diets": []
               }
             ]
           },
           {
             "title": "Lounas",
-            "diets": [
-              "G",
-              "M"
-            ],
+            "diets": [],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Mausteista chili-broilerpataa ja Riisiä",
-                "diets": [
-                  "G",
-                  "M"
-                ]
+                "title": "Uunimakkaraa tai Mustaamakkaraa ja puolukkahilloa ja\nPerunamuusia",
+                "diets": []
               }
             ]
           },
@@ -2166,7 +1647,7 @@
             "price": "8,50 €",
             "parts": [
               {
-                "title": "Mustajuurisosekeittoa ja Napas",
+                "title": "Tomaatti-chili-korianterikeittoa ja Napas",
                 "diets": [
                   "G",
                   "M"
@@ -2176,32 +1657,26 @@
           },
           {
             "title": "Lounassalaatti",
-            "diets": [
-              "G",
-              "M"
-            ],
+            "diets": [],
             "price": null,
             "parts": [
               {
-                "title": "Broiler TacoTake Away salaatti",
-                "diets": [
-                  "G",
-                  "M"
-                ]
+                "title": "Take Away Salaatti",
+                "diets": []
               }
             ]
           },
           {
             "title": "Lounaspatonki",
             "diets": [
-              "M"
+              "G"
             ],
             "price": null,
             "parts": [
               {
                 "title": "Lounaspatonki",
                 "diets": [
-                  "M"
+                  "G"
                 ]
               }
             ]
@@ -2214,7 +1689,7 @@
             "price": "1,30 €",
             "parts": [
               {
-                "title": "Ohukaisia (2kpl/annos) ja hilloa",
+                "title": "Mustikka-kermaviilipiirakkaa",
                 "diets": [
                   "L"
                 ]
@@ -2231,7 +1706,7 @@
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Tofu-kasvistäytteiset tortillat (2kpl/ann), Street Mex salsaa ja riisiä",
+                "title": "Uuniperunaa BBQ-maustetulla tofutäytteellä",
                 "diets": [
                   "M"
                 ]
@@ -2240,25 +1715,33 @@
           },
           {
             "title": "Lounas",
-            "diets": [],
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Kievin kanaa (1kpl/ann)\nKurkkumajoneesia\nPaahdettua perunaa",
-                "diets": []
+                "title": "Kirjolohikiusausta",
+                "diets": [
+                  "G",
+                  "L"
+                ]
               }
             ]
           },
           {
             "title": "Lounas",
             "diets": [
+              "G",
               "L"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Lihapullat 7kpl/annos, ruskea kastike ja paahdettua perunaa",
+                "title": "Broileria Tikka Masala ja Basmatiriisiä",
                 "diets": [
+                  "G",
                   "L"
                 ]
               }
@@ -2273,7 +1756,7 @@
             "price": "8,50 €",
             "parts": [
               {
-                "title": "Mustajuurisosekeittoa",
+                "title": "Porkkanasosekeittoa ja Napas",
                 "diets": [
                   "G",
                   "M"
@@ -2282,19 +1765,24 @@
             ]
           },
           {
-            "title": "Lounassalaatti",
-            "diets": [
-              "G",
-              "M"
-            ],
+            "title": "Napas",
+            "diets": [],
             "price": null,
             "parts": [
               {
-                "title": "Broiler Taco Take Away salaatti",
-                "diets": [
-                  "G",
-                  "M"
-                ]
+                "title": "Napas",
+                "diets": []
+              }
+            ]
+          },
+          {
+            "title": "Lounassalaatti",
+            "diets": [],
+            "price": null,
+            "parts": [
+              {
+                "title": "Take Away Salaatti",
+                "diets": []
               }
             ]
           },
@@ -2315,12 +1803,18 @@
           },
           {
             "title": "Jälkiruoka",
-            "diets": [],
+            "diets": [
+              "G",
+              "L"
+            ],
             "price": "1,30 €",
             "parts": [
               {
-                "title": "Daim Herkku",
-                "diets": []
+                "title": "Banaani-marjasmoothieta",
+                "diets": [
+                  "G",
+                  "L"
+                ]
               }
             ]
           }
@@ -2432,13 +1926,13 @@
       "menus": {
         "0": [
           {
-            "title": "Burger ja ranskalaiset",
+            "title": "Pihvi ja ranskalaiset",
             "diets": [
               "G",
               "L"
             ],
             "price": null,
-            "desc": "Naudan jauhelihapihvi, briossisämpylä, cheddaria, salaattia, tomaattia, suolakurkkua, aiolia ja maalaisranskalaisia Saatavilla"
+            "desc": "Naudan ulkofileepihvi, kauden kasviksia, kermaista pippurikastiketta ja maalaisranskalaisia"
           },
           {
             "title": "Paistettua lohta",
@@ -2447,37 +1941,37 @@
               "L"
             ],
             "price": null,
-            "desc": "Timjamivoissa paistettua lohta, kauden kasviksia,hollandaisea ja tilliperunoita"
+            "desc": "Sitruunavoissa paistettua lohta, kauden kasviksia, valkoviinivoikastiketta ja miedosti savustettuja perunoita"
           },
           {
-            "title": "Metsäsienikeitto",
+            "title": "Kurpitsakeitto",
             "diets": [
               "G",
               "L",
               "Veg"
             ],
             "price": null,
-            "desc": "Kermainen sienikeitto, tryffelivaahtoa ja yrttiöljyä Saatavilla"
+            "desc": "Kermainen kurpitsakeitto, tofua ja yrttiöljyä Saatavilla"
           },
           {
-            "title": "Katkarapusalaatti",
+            "title": "Falafel salaatti",
             "diets": [
               "G",
-              "L"
+              "Veg"
             ],
             "price": null,
-            "desc": "Raikasta salaattia, seesamilla maustettua katkarapuja, kvinoaa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
+            "desc": "Raikasta salaattia, falafelia, muhammaraa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
           }
         ],
         "1": [
           {
-            "title": "Burger ja ranskalaiset",
+            "title": "Pihvi ja ranskalaiset",
             "diets": [
               "G",
               "L"
             ],
             "price": null,
-            "desc": "Naudan jauhelihapihvi, briossisämpylä, cheddaria, salaattia, tomaattia, suolakurkkua, aiolia ja maalaisranskalaisia Saatavilla"
+            "desc": "Naudan ulkofileepihvi, kauden kasviksia, kermaista pippurikastiketta ja maalaisranskalaisia"
           },
           {
             "title": "Paistettua lohta",
@@ -2486,37 +1980,37 @@
               "L"
             ],
             "price": null,
-            "desc": "Timjamivoissa paistettua lohta, kauden kasviksia,hollandaisea ja tilliperunoita"
+            "desc": "Sitruunavoissa paistettua lohta, kauden kasviksia, valkoviinivoikastiketta ja miedosti savustettuja perunoita"
           },
           {
-            "title": "Metsäsienikeitto",
+            "title": "Kurpitsakeitto",
             "diets": [
               "G",
               "L",
               "Veg"
             ],
             "price": null,
-            "desc": "Kermainen sienikeitto, tryffelivaahtoa ja yrttiöljyä Saatavilla"
+            "desc": "Kermainen kurpitsakeitto, tofua ja yrttiöljyä Saatavilla"
           },
           {
-            "title": "Katkarapusalaatti",
+            "title": "Falafel salaatti",
             "diets": [
               "G",
-              "L"
+              "Veg"
             ],
             "price": null,
-            "desc": "Raikasta salaattia, seesamilla maustettua katkarapuja, kvinoaa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
+            "desc": "Raikasta salaattia, falafelia, muhammaraa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
           }
         ],
         "2": [
           {
-            "title": "Burger ja ranskalaiset",
+            "title": "Pihvi ja ranskalaiset",
             "diets": [
               "G",
               "L"
             ],
             "price": null,
-            "desc": "Naudan jauhelihapihvi, briossisämpylä, cheddaria, salaattia, tomaattia, suolakurkkua, aiolia ja maalaisranskalaisia Saatavilla"
+            "desc": "Naudan ulkofileepihvi, kauden kasviksia, kermaista pippurikastiketta ja maalaisranskalaisia"
           },
           {
             "title": "Paistettua lohta",
@@ -2525,37 +2019,37 @@
               "L"
             ],
             "price": null,
-            "desc": "Timjamivoissa paistettua lohta, kauden kasviksia,hollandaisea ja tilliperunoita"
+            "desc": "Sitruunavoissa paistettua lohta, kauden kasviksia, valkoviinivoikastiketta ja miedosti savustettuja perunoita"
           },
           {
-            "title": "Metsäsienikeitto",
+            "title": "Kurpitsakeitto",
             "diets": [
               "G",
               "L",
               "Veg"
             ],
             "price": null,
-            "desc": "Kermainen sienikeitto, tryffelivaahtoa ja yrttiöljyä Saatavilla"
+            "desc": "Kermainen kurpitsakeitto, tofua ja yrttiöljyä Saatavilla"
           },
           {
-            "title": "Katkarapusalaatti",
+            "title": "Falafel salaatti",
             "diets": [
               "G",
-              "L"
+              "Veg"
             ],
             "price": null,
-            "desc": "Raikasta salaattia, seesamilla maustettua katkarapuja, kvinoaa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
+            "desc": "Raikasta salaattia, falafelia, muhammaraa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
           }
         ],
         "3": [
           {
-            "title": "Burger ja ranskalaiset",
+            "title": "Pihvi ja ranskalaiset",
             "diets": [
               "G",
               "L"
             ],
             "price": null,
-            "desc": "Naudan jauhelihapihvi, briossisämpylä, cheddaria, salaattia, tomaattia, suolakurkkua, aiolia ja maalaisranskalaisia Saatavilla"
+            "desc": "Naudan ulkofileepihvi, kauden kasviksia, kermaista pippurikastiketta ja maalaisranskalaisia"
           },
           {
             "title": "Paistettua lohta",
@@ -2564,37 +2058,37 @@
               "L"
             ],
             "price": null,
-            "desc": "Timjamivoissa paistettua lohta, kauden kasviksia,hollandaisea ja tilliperunoita"
+            "desc": "Sitruunavoissa paistettua lohta, kauden kasviksia, valkoviinivoikastiketta ja miedosti savustettuja perunoita"
           },
           {
-            "title": "Metsäsienikeitto",
+            "title": "Kurpitsakeitto",
             "diets": [
               "G",
               "L",
               "Veg"
             ],
             "price": null,
-            "desc": "Kermainen sienikeitto, tryffelivaahtoa ja yrttiöljyä Saatavilla"
+            "desc": "Kermainen kurpitsakeitto, tofua ja yrttiöljyä Saatavilla"
           },
           {
-            "title": "Katkarapusalaatti",
+            "title": "Falafel salaatti",
             "diets": [
               "G",
-              "L"
+              "Veg"
             ],
             "price": null,
-            "desc": "Raikasta salaattia, seesamilla maustettua katkarapuja, kvinoaa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
+            "desc": "Raikasta salaattia, falafelia, muhammaraa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
           }
         ],
         "4": [
           {
-            "title": "Burger ja ranskalaiset",
+            "title": "Pihvi ja ranskalaiset",
             "diets": [
               "G",
               "L"
             ],
             "price": null,
-            "desc": "Naudan jauhelihapihvi, briossisämpylä, cheddaria, salaattia, tomaattia, suolakurkkua, aiolia ja maalaisranskalaisia Saatavilla"
+            "desc": "Naudan ulkofileepihvi, kauden kasviksia, kermaista pippurikastiketta ja maalaisranskalaisia"
           },
           {
             "title": "Paistettua lohta",
@@ -2603,26 +2097,26 @@
               "L"
             ],
             "price": null,
-            "desc": "Timjamivoissa paistettua lohta, kauden kasviksia,hollandaisea ja tilliperunoita"
+            "desc": "Sitruunavoissa paistettua lohta, kauden kasviksia, valkoviinivoikastiketta ja miedosti savustettuja perunoita"
           },
           {
-            "title": "Metsäsienikeitto",
+            "title": "Kurpitsakeitto",
             "diets": [
               "G",
               "L",
               "Veg"
             ],
             "price": null,
-            "desc": "Kermainen sienikeitto, tryffelivaahtoa ja yrttiöljyä Saatavilla"
+            "desc": "Kermainen kurpitsakeitto, tofua ja yrttiöljyä Saatavilla"
           },
           {
-            "title": "Katkarapusalaatti",
+            "title": "Falafel salaatti",
             "diets": [
               "G",
-              "L"
+              "Veg"
             ],
             "price": null,
-            "desc": "Raikasta salaattia, seesamilla maustettua katkarapuja, kvinoaa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
+            "desc": "Raikasta salaattia, falafelia, muhammaraa, kurkkua, kirsikkatomaattia, punasipulia ja sitruunavinegrettea"
           }
         ]
       }
@@ -2648,22 +2142,12 @@
       "menus": {
         "0": [
           {
-            "title": "Paprika kanatasku",
+            "title": "Karjalanpaisti",
             "diets": [
-              "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloitu ohutrieska täytettynä paprikaöljyllä maustetulla grillatulla kanalla ja salaatilla. lisäksi salsaa, paprikamajoneesia ja padron paprikaa."
-          },
-          {
-            "title": "Suomen parasta grillikanaa avotuligrillistä",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "13,90 €",
-            "desc": "Maalaisperunasalaattia, pikkelöityjä kasviksia ja paahdettu lintuliemi."
+            "desc": "Perunamuussia, suolakurkkua ja punajuurta"
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2674,12 +2158,20 @@
             "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
           },
           {
-            "title": "Kantarelli-kanapasta",
+            "title": "Los pollos kanatasku",
             "diets": [
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Grillattua kotimaista kananpoikaa, pastaa ja kermaista kantarellimuhennosta."
+            "desc": "Pariloituun ohutrieskaan valmistettu kanatasku, salaattia ja salsa brava kastiketta & aiolia"
+          },
+          {
+            "title": "Grillikanaa tomaatti-vuohenjuustokastikkeessa",
+            "diets": [
+              "L"
+            ],
+            "price": "13,90 €",
+            "desc": "Tarjotaan pastan, parmesanin sekä seesam-vinegretillä mehustetun salaatin kera."
           }
         ],
         "1": [
@@ -2866,7 +2358,7 @@
       "menus": {
         "0": [
           {
-            "title": "Parmesanbroileria",
+            "title": "Pyttipannu",
             "diets": [
               "G",
               "L"
@@ -2874,22 +2366,21 @@
             "price": "14,00 €"
           },
           {
-            "title": "Tofubowl vgn",
+            "title": "Metsäsienipasta",
+            "diets": [
+              "L"
+            ],
+            "price": "14,00 €"
+          },
+          {
+            "title": "Tuoretomaattikeitto vgn",
             "diets": [
               "G"
-            ],
-            "price": "14,00 €"
-          },
-          {
-            "title": "Metsäsienikeitto",
-            "diets": [
-              "G",
-              "L"
             ],
             "price": "8,80 €"
           },
           {
-            "title": "Pariloitua lohta",
+            "title": "Porsaanleike",
             "diets": [
               "G",
               "L"
@@ -2899,21 +2390,19 @@
         ],
         "1": [
           {
-            "title": "Pannupihvi",
+            "title": "Lasagne",
+            "diets": [],
+            "price": "14,00 €"
+          },
+          {
+            "title": "Halloumiburger",
             "diets": [
-              "L"
+              "VL"
             ],
             "price": "14,00 €"
           },
           {
-            "title": "Bataatti-pinaatticurry vgn",
-            "diets": [
-              "G"
-            ],
-            "price": "14,00 €"
-          },
-          {
-            "title": "Lohikeitto",
+            "title": "Kanakeitto",
             "diets": [
               "G",
               "L"
@@ -2921,7 +2410,7 @@
             "price": "8,80 €"
           },
           {
-            "title": "Pariloitua lohta",
+            "title": "Porsaanleike",
             "diets": [
               "G",
               "L"
@@ -2931,7 +2420,7 @@
         ],
         "2": [
           {
-            "title": "Chipotle-broileria",
+            "title": "Kanabowl",
             "diets": [
               "G",
               "L"
@@ -2939,19 +2428,19 @@
             "price": "14,00 €"
           },
           {
-            "title": "Falafel & baba ganoush vgn",
+            "title": "Punajuuripihvi vgn",
             "diets": [],
             "price": "14,00 €"
           },
           {
-            "title": "Tofu-kookoskeitto vgn",
+            "title": "Linssikeitto vgn",
             "diets": [
               "G"
             ],
             "price": "8,80 €"
           },
           {
-            "title": "Pariloitua lohta",
+            "title": "Porsaanleike",
             "diets": [
               "G",
               "L"
@@ -2961,21 +2450,19 @@
         ],
         "3": [
           {
-            "title": "Cheddarburger",
+            "title": "Friteerattuja muikkuja",
             "diets": [
               "L"
             ],
             "price": "14,00 €"
           },
           {
-            "title": "Kurpitsa-parmesanpastaa",
-            "diets": [
-              "L"
-            ],
+            "title": "Linssimureke vgn",
+            "diets": [],
             "price": "14,00 €"
           },
           {
-            "title": "Punajuurikeittoa ja piparjuurikermaa",
+            "title": "Mustajuurikeitto",
             "diets": [
               "G",
               "L"
@@ -2983,7 +2470,7 @@
             "price": "8,80 €"
           },
           {
-            "title": "Pariloitua lohta",
+            "title": "Porsaanleike",
             "diets": [
               "G",
               "L"
@@ -2993,30 +2480,32 @@
         ],
         "4": [
           {
-            "title": "Fish and chips",
+            "title": "Riistakäristys",
             "diets": [
+              "G",
               "L"
             ],
             "price": "14,00 €"
           },
           {
-            "title": "Feta-pinaattipasta",
+            "title": "Sieni-kaalilaatikko",
             "diets": [
-              "VL"
+              "G",
+              "L"
             ],
             "price": "14,00 €"
           },
           {
-            "title": "Hernekeitto vgn",
+            "title": "Katkarapukeitto",
             "diets": [
-              "G"
+              "G",
+              "L"
             ],
             "price": "8,80 €"
           },
           {
-            "title": "Pariloitua lohta",
+            "title": "Wieninleike",
             "diets": [
-              "G",
               "L"
             ],
             "price": "16,50 €"
@@ -3048,49 +2537,64 @@
               {
                 "title": "Tiesitkö! Valitsemalla keittolounaan vähennät samalla hävikkiä!",
                 "diets": []
+              },
+              {
+                "title": "Juustoinen kasvissosekeitto",
+                "diets": [
+                  "G",
+                  "L"
+                ]
               }
             ]
           },
           {
             "title": "So good buffet",
             "diets": [
-              "G"
+              "L"
             ],
             "price": "13,50 €",
             "parts": [
               {
-                "title": "Broileria maissipaneroinnilla",
+                "title": "Kanaa Kiovan tapaan",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Minttujogurttikastiketta",
                 "diets": [
                   "G",
                   "L"
                 ]
               },
               {
-                "title": "Aurinkokuivattutomaatti-majoneesia",
+                "title": "Paahdettua perunaa",
                 "diets": [
                   "G",
                   "L",
-                  "M"
+                  "M",
+                  "Veg"
                 ]
               },
               {
-                "title": "Murskattua juustoperunaa",
+                "title": "Jauhelihalasagnea",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Välimerellistä kasvis-fetamunakasta",
                 "diets": [
                   "G",
                   "L"
                 ]
               },
               {
-                "title": "Kermaista savuporokiusausta",
+                "title": "Paahdettuja siemeniä",
                 "diets": [
                   "G",
-                  "L"
-                ]
-              },
-              {
-                "title": "Chili con vege ja riisiä",
-                "diets": [
-                  "G",
+                  "L",
+                  "M",
                   "Veg"
                 ]
               }
@@ -3105,7 +2609,7 @@
             "price": null,
             "parts": [
               {
-                "title": "Mustikkarahkaa",
+                "title": "Suklaa-banaanimoussea",
                 "diets": [
                   "G",
                   "L"
@@ -3123,15 +2627,6 @@
               {
                 "title": "Tiesitkö! Valitsemalla keittolounaan vähennät samalla hävikkiä!",
                 "diets": []
-              },
-              {
-                "title": "Kookos-kurpitsakeitto",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ]
               }
             ]
           },
@@ -3143,21 +2638,14 @@
             "price": "13,50 €",
             "parts": [
               {
-                "title": "Kreikkalaisia jauhelihapihvejä fetajuustolla",
+                "title": "Lihapullia \"Lamminpään lumous\" - tummassa sinappikastikkeessa",
                 "diets": [
                   "G",
                   "L"
                 ]
               },
               {
-                "title": "Mintulla maustettua tzatzikia",
-                "diets": [
-                  "G",
-                  "L"
-                ]
-              },
-              {
-                "title": "Yrttipaahdettua perunaa",
+                "title": "Puolukkaa",
                 "diets": [
                   "G",
                   "L",
@@ -3166,83 +2654,9 @@
                 ]
               },
               {
-                "title": "Kylmäsavukirjolohipastaa",
+                "title": "Rukiiset puna-ahvenet",
                 "diets": [
                   "L"
-                ]
-              },
-              {
-                "title": "Härkis iskender ja tuoretta korianteria",
-                "diets": [
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "So sweet jälkiruoka sisältyy lounaaseen",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null,
-            "parts": [
-              {
-                "title": "Banaanikakkua",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              },
-              {
-                "title": "Kinuskikermavaahtoa",
-                "diets": [
-                  "G",
-                  "L"
-                ]
-              }
-            ]
-          }
-        ],
-        "2": [
-          {
-            "title": "So warm kasviskeitto",
-            "diets": [
-              "G",
-              "Veg"
-            ],
-            "price": "11,90 €",
-            "parts": [
-              {
-                "title": "Tomaatti-linssikeitto",
-                "diets": [
-                  "G",
-                  "Veg"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "So good buffet",
-            "diets": [],
-            "price": "13,50 €",
-            "parts": [
-              {
-                "title": "Parmesan paneroitua puna-ahventa",
-                "diets": [
-                  "L"
-                ]
-              },
-              {
-                "title": "Hummerimajoneesia",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
                 ]
               },
               {
@@ -3253,23 +2667,13 @@
                 ]
               },
               {
-                "title": "Lihapullia italialaisessa mozzarella-tomaattikastikkeessa",
+                "title": "Meidän keittiön kukkakaali-manchegopihvejä",
                 "diets": [
-                  "G",
-                  "VL"
+                  "L"
                 ]
               },
               {
-                "title": "Italialaisia kasvispyöryköitä",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              },
-              {
-                "title": "Riisiä ja kotimaista kauraa",
+                "title": "Herneenversopistouta",
                 "diets": [
                   "G",
                   "L",
@@ -3287,7 +2691,103 @@
             "price": null,
             "parts": [
               {
-                "title": "Puolukka-kauraherkkua",
+                "title": "Mustikka-keksirahkaa",
+                "diets": [
+                  "L"
+                ]
+              }
+            ]
+          }
+        ],
+        "2": [
+          {
+            "title": "So warm kasviskeitto",
+            "diets": [],
+            "price": "11,90 €",
+            "parts": [
+              {
+                "title": "Tiesitkö! Valitsemalla keittolounaan vähennät samalla hävikkiä!",
+                "diets": []
+              }
+            ]
+          },
+          {
+            "title": "So good buffet",
+            "diets": [
+              "L"
+            ],
+            "price": "13,50 €",
+            "parts": [
+              {
+                "title": "Mureaa Karamelli-chilipossua",
+                "diets": [
+                  "G",
+                  "L",
+                  "M"
+                ]
+              },
+              {
+                "title": "Punaista chiliä",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Korianteria",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Paahdettua perunaa",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Sinihomejuusto-broileripastaa",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Basmatiriisiä",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "So sweet jälkiruoka sisältyy lounaaseen",
+            "diets": [
+              "L"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Toskapiirakkaa",
                 "diets": [
                   "L"
                 ]
@@ -3313,57 +2813,21 @@
             "price": "13,50 €",
             "parts": [
               {
-                "title": "Porsaan lehtipihvi",
+                "title": "BBQ Broileri-pannupizzaa ja fetaa",
                 "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Bearnaisekastiketta",
-                "diets": [
-                  "G"
-                ]
-              },
-              {
-                "title": "Paahdettua perunaa",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              },
-              {
-                "title": "Tuorejuustotäytteisiä kirjolohipihvejä",
-                "diets": [
-                  "G",
                   "L"
                 ]
               },
               {
-                "title": "Ruohosipuli-tillijogurttia",
+                "title": "Jauhelihapannupizzaa, grillattua paprikaa & chiliä",
                 "diets": [
-                  "G",
                   "L"
                 ]
               },
               {
-                "title": "Paistettua tofua ja srirachamajoneesia",
+                "title": "Vuohenjuustopannupizzaa ja punajuurihummusta",
                 "diets": [
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              },
-              {
-                "title": "Chili-inkivääririisiä",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
+                  "VL"
                 ]
               }
             ]
@@ -3371,19 +2835,13 @@
           {
             "title": "So sweet jälkiruoka sisältyy lounaaseen",
             "diets": [
+              "G",
               "L"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Omenapiirakkaa",
-                "diets": [
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Kanelikermavaahtoa",
+                "title": "Kinuskivanukasta",
                 "diets": [
                   "G",
                   "L"
@@ -3395,31 +2853,22 @@
         "4": [
           {
             "title": "So warm kasviskeitto",
-            "diets": [
-              "G",
-              "L"
-            ],
+            "diets": [],
             "price": "11,90 €",
             "parts": [
               {
-                "title": "Juustoinen kasvissosekeitto",
-                "diets": [
-                  "G",
-                  "L"
-                ]
+                "title": "Tiesitkö! Valitsemalla keittolounaan vähennät samalla hävikkiä!",
+                "diets": []
               }
             ]
           },
           {
             "title": "So good buffet",
-            "diets": [
-              "L",
-              "M"
-            ],
+            "diets": [],
             "price": "13,50 €",
             "parts": [
               {
-                "title": "Rapeaa kanaa - Crispy chicken",
+                "title": "Paahdettua lohta",
                 "diets": [
                   "G",
                   "L",
@@ -3427,14 +2876,7 @@
                 ]
               },
               {
-                "title": "Hodareita",
-                "diets": [
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Lime-aiolia",
+                "title": "Tilliöljyä",
                 "diets": [
                   "G",
                   "L",
@@ -3443,25 +2885,25 @@
                 ]
               },
               {
-                "title": "Mangosalsaa",
+                "title": "Sitruunajogurttikastiketta",
                 "diets": [
                   "G",
-                  "L",
-                  "M",
-                  "Veg"
+                  "L"
                 ]
               },
               {
-                "title": "Kukkakaali-kasvispyöryköitä",
+                "title": "Muhennettua perunaa",
                 "diets": [
                   "G",
-                  "L",
-                  "M",
-                  "Veg"
+                  "L"
                 ]
               },
               {
-                "title": "Lohkoperunoita",
+                "title": "Paistettua nuudelia, kasviksia ja pähkinää",
+                "diets": []
+              },
+              {
+                "title": "Chilillä maustettua luomutofua",
                 "diets": [
                   "G",
                   "L",
@@ -3480,7 +2922,7 @@
             "price": null,
             "parts": [
               {
-                "title": "Å11 Jäätelö ja karkkibuffet",
+                "title": "Food & Co Jäätelöbuffet",
                 "diets": [
                   "G",
                   "L"
@@ -3506,13 +2948,12 @@
         "url": "https://www.lounaat.info/lounas/semafori/tampere"
       },
       "info": [
-        "Lounasbuffetin hinta 13,80 €.",
-        "Monipuolinen pizza- ja hotwings buffet"
+        "Lounasbuffetin hinta 13,80 €."
       ],
       "menus": {
         "0": [
           {
-            "title": "Kasviskeitto",
+            "title": "Tomaattikeitto",
             "diets": [
               "G",
               "L"
@@ -3520,7 +2961,7 @@
             "price": null
           },
           {
-            "title": "Hedelmäinen Kanapata & riisi",
+            "title": "Juustoinen Uunimakkara ja muusi",
             "diets": [
               "G",
               "L"
@@ -3528,7 +2969,7 @@
             "price": null
           },
           {
-            "title": "Talon Pyttipannu ja paistettu kanamuna",
+            "title": "Sweet&Sour Kana-Nuudeliwokki",
             "diets": [
               "G",
               "L"
@@ -3536,7 +2977,7 @@
             "price": null
           },
           {
-            "title": "Uunikasvikset",
+            "title": "Yrttimausteiset Uunikasvikset",
             "diets": [
               "G",
               "L"
@@ -3544,9 +2985,13 @@
             "price": null
           },
           {
-            "title": "Jälkiruokana vaniljapannacotta",
+            "title": "Monipuolinen pizza-ja hot wingsbuffet",
+            "diets": [],
+            "price": null
+          },
+          {
+            "title": "Jälkiruokana tiramisua",
             "diets": [
-              "G",
               "L"
             ],
             "price": null
@@ -3554,118 +2999,22 @@
         ],
         "1": [
           {
-            "title": "Kanakeitto",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Talon Uunikala tomaatti-oliivikastikkeella ja muusi",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Kreikkalainen Moussaka",
-            "diets": [
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Fetajuustolla täytetyt kääryleet",
-            "diets": [
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Jälkiruokana talon porkkanakakkua",
-            "diets": [
-              "L"
-            ],
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
             "price": null
           }
         ],
         "2": [
           {
-            "title": "Jauhelihakeitto",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Punaviinissä haudutettua naudanlihaa ja bulgur",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Italialainen Kasvislasagne",
-            "diets": [
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Jälkiruokana samettista suklaakakkua",
-            "diets": [
-              "L"
-            ],
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "diets": [],
             "price": null
           }
         ],
         "3": [
           {
-            "title": "Hernekeitto & pannari",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Ylikypsää Possua juureksilla",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Trooppinen Kanawokki ja riisi",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Tomaattinen Papupata",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": null
-          },
-          {
-            "title": "Monipuolinen pizza- ja hotwingsbuffet",
+            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
             "diets": [],
-            "price": null
-          },
-          {
-            "title": "Jälkiruokana pannari ja tiramisu",
-            "diets": [
-              "L"
-            ],
             "price": null
           }
         ],
@@ -3708,7 +3057,16 @@
             "price": null,
             "parts": [
               {
-                "title": "Tofua ja herneita mausteisessa kastikkeessa - Tofu Matar Paneer",
+                "title": "Falafelpihvejä 2 kpl / extra",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Tzatsikia",
                 "diets": [
                   "G",
                   "L",
@@ -3735,7 +3093,7 @@
             "price": null,
             "parts": [
               {
-                "title": "Kookoksella maustettua broileria ja nuudelia",
+                "title": "Kylmäsavulohipastaa ja tilliä",
                 "diets": [
                   "L"
                 ]
@@ -3745,20 +3103,19 @@
           {
             "title": "Lounas",
             "diets": [
-              "G",
               "L"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Aasialainen kalapihvi 3 kpl / extra",
+                "title": "Broileripyöryköitä 6 kpl / extra",
                 "diets": [
-                  "G",
-                  "L"
+                  "L",
+                  "M"
                 ]
               },
               {
-                "title": "Ruohosipulijogurttia",
+                "title": "Omenalla maustettua currykastiketta",
                 "diets": [
                   "G",
                   "L"
@@ -3788,7 +3145,7 @@
             "price": null,
             "parts": [
               {
-                "title": "Kvinoa pihvejä 2 kpl / extra",
+                "title": "Tex Mex maustettuja kasvispyöryköitä",
                 "diets": [
                   "G",
                   "L",
@@ -3797,7 +3154,7 @@
                 ]
               },
               {
-                "title": "Sriracha-gurttikastiketta",
+                "title": "Chilimajoneesia",
                 "diets": [
                   "G",
                   "L",
@@ -3817,6 +3174,40 @@
             ]
           },
           {
+            "title": "Pop up pisteessä klo 11-13",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Chilipaahdettua kirjolohta",
+                "diets": [
+                  "G",
+                  "L",
+                  "M"
+                ]
+              },
+              {
+                "title": "Ruohosipulijogurttia",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Savupaprikalla paahdettuja perunoita",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              }
+            ]
+          },
+          {
             "title": "Lounas",
             "diets": [
               "L"
@@ -3824,7 +3215,7 @@
             "price": null,
             "parts": [
               {
-                "title": "Tonnikala-pastavuokaa",
+                "title": "Meetwurstia Margherita ja pennepastaa",
                 "diets": [
                   "L"
                 ]
@@ -3834,16 +3225,22 @@
           {
             "title": "Lounas",
             "diets": [
-              "L",
-              "M"
+              "L"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Jauhelihapyöryköitä 6 kpl / extra",
+                "title": "Rapeaa siemenpaneroitua kalaa",
                 "diets": [
                   "L",
                   "M"
+                ]
+              },
+              {
+                "title": "Tillijogurttia",
+                "diets": [
+                  "G",
+                  "L"
                 ]
               },
               {
@@ -3862,6 +3259,7 @@
           {
             "title": "Vegaaninen lounas",
             "diets": [
+              "G",
               "L",
               "M",
               "Veg"
@@ -3869,8 +3267,9 @@
             "price": null,
             "parts": [
               {
-                "title": "Chili con Vege Unlimited® jauhismurusta",
+                "title": "Makean hapanta tofu-kasviswokkia - Tofua Kung Pao",
                 "diets": [
+                  "G",
                   "L",
                   "M",
                   "Veg"
@@ -3890,18 +3289,143 @@
           {
             "title": "Pop up pisteessä klo 11-13",
             "diets": [
-              "G",
-              "L",
-              "M"
+              "L"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Chicken & Chips 1 kpl / extra",
+                "title": "Rapeaa kanaa korealaisittain - Chicken Gochujang",
+                "diets": [
+                  "L",
+                  "M"
+                ]
+              },
+              {
+                "title": "Limemajoneesia",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Lohkoperunoita",
                 "diets": [
                   "G",
                   "L",
-                  "M"
+                  "M",
+                  "Veg"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Lounas",
+            "diets": [
+              "G",
+              "L"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Tulista ja aromaattista kanacurrya - Madras Chicken",
+                "diets": [
+                  "G",
+                  "L"
+                ]
+              },
+              {
+                "title": "Tummaa riisiä",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Lounas",
+            "diets": [
+              "L"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Liha-makaronilaatikkoa",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Ketsuppia",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              }
+            ]
+          }
+        ],
+        "3": [
+          {
+            "title": "Vegaaninen lounas",
+            "diets": [
+              "G",
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Ratatouillea ja soijapapua",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Paahdettua perunaa",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Pop up pisteessä klo 11-13",
+            "diets": [
+              "L"
+            ],
+            "price": null,
+            "parts": [
+              {
+                "title": "Briossi BRG Pulled Chicken",
+                "diets": [
+                  "L"
+                ]
+              },
+              {
+                "title": "Maalaisranskalaisia",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
+                ]
+              },
+              {
+                "title": "Parmesanmajoneesia",
+                "diets": [
+                  "L"
                 ]
               }
             ]
@@ -3914,24 +3438,8 @@
             "price": null,
             "parts": [
               {
-                "title": "Porkkanaohukaisia 3 kpl / extra",
+                "title": "Tomaattista vuohenjuustolasagnettea",
                 "diets": [
-                  "L"
-                ]
-              },
-              {
-                "title": "Hillottua puolukkaa",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              },
-              {
-                "title": "Perunamuusia",
-                "diets": [
-                  "G",
                   "L"
                 ]
               }
@@ -3946,10 +3454,11 @@
             "price": null,
             "parts": [
               {
-                "title": "Rapeita kalapyöryköitä 6 kpl / extra",
+                "title": "Rapeat kalapalat",
                 "diets": [
                   "G",
-                  "L"
+                  "L",
+                  "M"
                 ]
               },
               {
@@ -3957,121 +3466,6 @@
                 "diets": [
                   "G",
                   "L"
-                ]
-              },
-              {
-                "title": "Perunamuusia",
-                "diets": [
-                  "G",
-                  "L"
-                ]
-              }
-            ]
-          }
-        ],
-        "3": [
-          {
-            "title": "Vegaaninen lounas",
-            "diets": [
-              "L",
-              "M",
-              "Veg"
-            ],
-            "price": null,
-            "parts": [
-              {
-                "title": "Sisilialaista seitanpastaa",
-                "diets": [
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Pop up pisteessä klo 11-13",
-            "diets": [
-              "L",
-              "M"
-            ],
-            "price": null,
-            "parts": [
-              {
-                "title": "Briossihampurilainen naudasta",
-                "diets": [
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Aiolia",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Maalaisranskalaisia",
-                "diets": [
-                  "G",
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Lounas",
-            "diets": [
-              "L",
-              "M"
-            ],
-            "price": null,
-            "parts": [
-              {
-                "title": "Bolognesekastiketta",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Luomutäysjyväpastaa",
-                "diets": [
-                  "L",
-                  "M",
-                  "Veg"
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Lounas",
-            "diets": [
-              "G",
-              "L",
-              "M"
-            ],
-            "price": null,
-            "parts": [
-              {
-                "title": "Broilerinkoipi intialaisittain 1 kpl / extra",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
-                ]
-              },
-              {
-                "title": "Aiolia",
-                "diets": [
-                  "G",
-                  "L",
-                  "M"
                 ]
               },
               {
@@ -4090,6 +3484,7 @@
           {
             "title": "Vegaaninen lounas",
             "diets": [
+              "G",
               "L",
               "M",
               "Veg"
@@ -4097,8 +3492,9 @@
             "price": null,
             "parts": [
               {
-                "title": "Linssi-tandooricurrya ja Gold&Green®-suikaleita",
+                "title": "Härkispataa teriyaki",
                 "diets": [
+                  "G",
                   "L",
                   "M",
                   "Veg"
@@ -4119,15 +3515,26 @@
             "title": "Lounas",
             "diets": [
               "G",
-              "L"
+              "L",
+              "M"
             ],
             "price": null,
             "parts": [
               {
-                "title": "Ruotsalaista pyttipannua",
+                "title": "Perinteistä makkarakastiketta",
                 "diets": [
                   "G",
-                  "L"
+                  "L",
+                  "M"
+                ]
+              },
+              {
+                "title": "Keitettyjä perunoita",
+                "diets": [
+                  "G",
+                  "L",
+                  "M",
+                  "Veg"
                 ]
               }
             ]
@@ -4140,14 +3547,14 @@
             "price": null,
             "parts": [
               {
-                "title": "Rapeita kalapuikkoja 5 kpl / extra",
+                "title": "Jauhelihakebakoita",
                 "diets": [
                   "L",
                   "M"
                 ]
               },
               {
-                "title": "Tillijogurttia",
+                "title": "Harissajogurttia",
                 "diets": [
                   "G",
                   "L"
@@ -4182,17 +3589,13 @@
         "url": "https://www.lounaat.info/lounas/zarillo/tampere"
       },
       "info": [
-        "Lounaspihvit valitsemallasi kastikkeella ja lisukkeella:"
+        "Lounaspihvit valitsemallasi kastikkeella ja lisukkeella:",
+        "Salaatit: Päivän lounasannos"
       ],
       "menus": {
         "0": [
           {
             "title": "Klassikkoburgerateriat",
-            "diets": [],
-            "price": "12,80 €"
-          },
-          {
-            "title": "Salaatit: Päivän lounasannos -Tortillaburger ja ranskalaiset",
             "diets": [],
             "price": "12,80 €"
           }
@@ -4210,21 +3613,11 @@
             "title": "Klassikkoburgerateriat",
             "diets": [],
             "price": "12,80 €"
-          },
-          {
-            "title": "Salaatit: Päivän lounasannos -Possua Cowboy butter kastikkeella + grillitomaatilla ja lämpimillä kasviksilla sekä savupaprikalohkoperunat",
-            "diets": [],
-            "price": "12,80 €"
           }
         ],
         "3": [
           {
             "title": "Klassikkoburgerateriat",
-            "diets": [],
-            "price": "12,80 €"
-          },
-          {
-            "title": "Salaatit: Päivän lounasannos -Bbq -burger ja savupaprikalohkoperunat",
             "diets": [],
             "price": "12,80 €"
           }
@@ -4234,17 +3627,9 @@
             "title": "Klassikkoburgerateriat",
             "diets": [],
             "price": "12,80 €"
-          },
-          {
-            "title": "Salaatit: Päivän lounasannos -Valkosipuliparmensaani kanaa lämpimillä kasviksilla sekä ranskalaiset",
-            "diets": [],
-            "price": "12,80 €"
           }
         ]
-      },
-      "warnings": [
-        "ke: pitkä otsikko: Salaatit: Päivän lounasannos -Possua Cowboy butter kastikkeella + grillitomaatil"
-      ]
+      }
     },
     {
       "id": "maltti-taproom",
@@ -4698,37 +4083,452 @@
       "menus": {
         "0": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Pork ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Shio chicken ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Vegan ramen",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
             "diets": [],
-            "price": null
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu bowl",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke salad",
+            "diets": [],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke salad",
+            "diets": [
+              "G",
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu salad",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
           }
         ],
         "1": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Pork ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Shio chicken ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Vegan ramen",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
             "diets": [],
-            "price": null
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu bowl",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke salad",
+            "diets": [],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke salad",
+            "diets": [
+              "G",
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu salad",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
           }
         ],
         "2": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Pork ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Shio chicken ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Vegan ramen",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
             "diets": [],
-            "price": null
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu bowl",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke salad",
+            "diets": [],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke salad",
+            "diets": [
+              "G",
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu salad",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
           }
         ],
         "3": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Pork ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Shio chicken ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Vegan ramen",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
             "diets": [],
-            "price": null
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu bowl",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke salad",
+            "diets": [],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke salad",
+            "diets": [
+              "G",
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu salad",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
           }
         ],
         "4": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
+            "title": "Pork ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Shio chicken ramen",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Vegan ramen",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
             "diets": [],
-            "price": null
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke",
+            "diets": [
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu bowl",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
+          },
+          {
+            "title": "Salmon poke salad",
+            "diets": [],
+            "price": "14,90 €"
+          },
+          {
+            "title": "Eggplant poke salad",
+            "diets": [
+              "G",
+              "L",
+              "M",
+              "Veg"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Chicken katsu salad",
+            "diets": [
+              "L",
+              "M"
+            ],
+            "price": "12,90 €"
+          },
+          {
+            "title": "Lunch combo with dumplings",
+            "diets": [],
+            "price": "4,50 €"
           }
         ]
       }
@@ -4748,22 +4548,15 @@
         "url": "https://www.lounaat.info/lounas/schnitzelhaus/tampere"
       },
       "info": [
-        "Hausspezialität arkisin 11:00-15:00"
+        "Hausspezialität arkisin 11:00-15:00",
+        "VIIKON SPESIAALI"
       ],
       "menus": {
         "0": [
           {
-            "title": "Bolognesespätzle",
+            "title": "Pekonia ja kaalia",
             "diets": [],
             "price": "14,00 €"
-          },
-          {
-            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "24,50 €"
           },
           {
             "title": "Currywurst mit Pommes saatavilla myös vegaanisena",
@@ -4789,17 +4582,9 @@
         ],
         "1": [
           {
-            "title": "Spätzle herkkusienikastikkeella",
+            "title": "Metsäsienikastike",
             "diets": [],
             "price": "14,00 €"
-          },
-          {
-            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "24,50 €"
           },
           {
             "title": "Currywurst mit Pommes saatavilla myös vegaanisena",
@@ -4825,17 +4610,9 @@
         ],
         "2": [
           {
-            "title": "Spätzle saksanhirvellä ja olutkastikkeella",
+            "title": "Hapankaalia ja bratwurstia",
             "diets": [],
             "price": "14,00 €"
-          },
-          {
-            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "24,50 €"
           },
           {
             "title": "Currywurst mit Pommes saatavilla myös vegaanisena",
@@ -4861,17 +4638,9 @@
         ],
         "3": [
           {
-            "title": "Spätzle lohella ja sitruunaisella kastikkeella",
+            "title": "Brie-juustokastike",
             "diets": [],
             "price": "14,00 €"
-          },
-          {
-            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "24,50 €"
           },
           {
             "title": "Currywurst mit Pommes saatavilla myös vegaanisena",
@@ -4897,17 +4666,9 @@
         ],
         "4": [
           {
-            "title": "Spätzle chorizolla ja paprikakastikkeella",
+            "title": "Paistettua juustoa ja zigeunerkastiketta",
             "diets": [],
             "price": "14,00 €"
-          },
-          {
-            "title": "VIIKON SPESIAALI Possurulla pekoni-aurajuusto täytteellä, paistetut perunat & kasvikset",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "24,50 €"
           },
           {
             "title": "Currywurst mit Pommes saatavilla myös vegaanisena",
@@ -4955,7 +4716,7 @@
       "menus": {
         "0": [
           {
-            "title": "• 150g pihvi naudan ulkofileestä, paahdettua perunaa, juureksia & punaviinikastike",
+            "title": "Ylikypsää porsaankylkeä, voi-pottumuusi, juureksia & chimichurri",
             "diets": [
               "G",
               "L"
@@ -4963,7 +4724,7 @@
             "price": "17,80 €"
           },
           {
-            "title": "• Pesto-halloumipasta",
+            "title": "Pasta paahdetulla paprikakastikkeella ja Fetalla",
             "diets": [
               "G",
               "L"
@@ -4971,7 +4732,7 @@
             "price": "14,00 €"
           },
           {
-            "title": "• Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
+            "title": "Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
             "diets": [
               "G",
               "L"
@@ -4991,7 +4752,7 @@
         ],
         "1": [
           {
-            "title": "• 150g pihvi naudan ulkofileestä, paahdettua perunaa, juureksia & punaviinikastike",
+            "title": "Ylikypsää porsaankylkeä, voi-pottumuusi, juureksia & chimichurri",
             "diets": [
               "G",
               "L"
@@ -4999,7 +4760,7 @@
             "price": "17,80 €"
           },
           {
-            "title": "• Pasta al Fume",
+            "title": "Pasta Alla Gricia",
             "diets": [
               "G",
               "L"
@@ -5007,7 +4768,7 @@
             "price": "14,00 €"
           },
           {
-            "title": "• Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
+            "title": "Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
             "diets": [
               "G",
               "L"
@@ -5027,7 +4788,7 @@
         ],
         "2": [
           {
-            "title": "• 150g pihvi naudan ulkofileestä, paahdettua perunaa, juureksia & punaviinikastike",
+            "title": "Ylikypsää porsaankylkeä, voi-pottumuusi, juureksia & chimichurri",
             "diets": [
               "G",
               "L"
@@ -5035,7 +4796,7 @@
             "price": "17,80 €"
           },
           {
-            "title": "• Pasta Bolognese",
+            "title": "Kylmäsavulohi pasta",
             "diets": [
               "G",
               "L"
@@ -5043,7 +4804,7 @@
             "price": "14,00 €"
           },
           {
-            "title": "• Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
+            "title": "Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
             "diets": [
               "G",
               "L"
@@ -5063,7 +4824,7 @@
         ],
         "3": [
           {
-            "title": "• 150g pihvi naudan ulkofileestä, paahdettua perunaa, juureksia & punaviinikastike",
+            "title": "Ylikypsää porsaankylkeä, voi-pottumuusi, juureksia & chimichurri",
             "diets": [
               "G",
               "L"
@@ -5071,7 +4832,7 @@
             "price": "17,80 €"
           },
           {
-            "title": "• Pasta Portobello",
+            "title": "Pasta Arrabiatta",
             "diets": [
               "G",
               "L"
@@ -5079,7 +4840,7 @@
             "price": "14,00 €"
           },
           {
-            "title": "• Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
+            "title": "Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
             "diets": [
               "G",
               "L"
@@ -5099,7 +4860,7 @@
         ],
         "4": [
           {
-            "title": "• 150g pihvi naudan ulkofileestä, paahdettua perunaa, juureksia & punaviinikastike",
+            "title": "Ylikypsää porsaankylkeä, voi-pottumuusi, juureksia & chimichurri",
             "diets": [
               "G",
               "L"
@@ -5107,15 +4868,14 @@
             "price": "17,80 €"
           },
           {
-            "title": "• Pippurinen lihapulla pasta",
+            "title": "Lasagne",
             "diets": [
-              "G",
               "L"
             ],
             "price": "14,00 €"
           },
           {
-            "title": "• Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
+            "title": "Lounassalaatti, valitse: vuohenjuusto, halloumi tai broilerin sisäfilee",
             "diets": [
               "G",
               "L"
