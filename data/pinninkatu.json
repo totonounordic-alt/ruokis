@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "23.11.2026 klo 16.43",
+  "updated": "23.11.2026 klo 20.44",
   "week": "2026-W48",
   "restaurants": [
     {
@@ -2176,13 +2176,13 @@
         ],
         "1": [
           {
-            "title": "Kanarieskatasku salsa rosa rapusalaatin kera",
+            "title": "Paprika-kanatasku",
             "diets": [
               "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloitu perunarieska, kotimaista kananpoikaa ja salaattia & ravunpyrstöjä salsa rosa kastikkeessa."
+            "desc": "Pariloitu perunarieska, kotimaista kananpoikaa ja salaattia & salsaa, paprikamajoa ja padron-paprikaa"
           },
           {
             "title": "Suomen parasta grillikanaa avotuligrillistä",
@@ -2191,7 +2191,7 @@
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Lämpimiä kasviksia, lohkoperunoita ja paahdettu lintuliemi."
+            "desc": "Persilja-perunoita, salaattimix & seesam dressing ja paahdettu lintuliemi."
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2200,25 +2200,6 @@
             ],
             "price": "13,90 €",
             "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
-          },
-          {
-            "title": "Popcorn kanaa",
-            "diets": [
-              "PG",
-              "L"
-            ],
-            "price": "14,90 €",
-            "desc": "Rapeaksi paistettua paneroitua kananpoikaa, cajun-perunoita, salaattia, pikkelöityä punasipulia ja avokadodippi."
-          },
-          {
-            "title": "Kevytlounas - kurpitsasosekeittoa",
-            "diets": [
-              "PG",
-              "L",
-              "Veg"
-            ],
-            "price": "9,90 €",
-            "desc": "Samettisen pehmeää kurpitsasosekeittoa, leipää ja salaattia grillatulla kanalla + 4€"
           }
         ],
         "2": [
@@ -2229,15 +2210,16 @@
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Yrttituorejuustolla täytettyä uuniperunaa, tomaatti-mozzarellasalaattia ja tummaa sipulikastiketta."
+            "desc": "Kurpitsa-perunasosetta, rakuunaporkkanoita ja paahdettu lintuliemi"
           },
           {
-            "title": "Bechamel burrito",
+            "title": "Gorgonzola-kanatasku",
             "diets": [
+              "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloitu perunarieska täytettynä pulled-kanalla & sipuli-paprikapaistoksella sekä kuorrutettuna bechamel-kastikkeella ja juustoilla. lisäksi salaattia, rucolaa & oliiveja."
+            "desc": "Pariloitu perunarieska täytettynä salaatilla ja kotimaisella kanalla. lisäksi gorgonzola -sinuhomejuustoa ja keittiömme omena-sellerihilloa."
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2246,27 +2228,16 @@
             ],
             "price": "13,90 €",
             "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
-          },
-          {
-            "title": "Kevytlounas - kurpitsasosekeittoa",
-            "diets": [
-              "PG",
-              "L",
-              "Veg"
-            ],
-            "price": "9,90 €",
-            "desc": "Samettisen pehmeää kurpitsasosekeittoa, leipää ja salaattia grillatulla kanalla + 4€"
           }
         ],
         "3": [
           {
-            "title": "Pekoni-kanatasku",
+            "title": "Kanatasku",
             "diets": [
               "PG",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Penttilän tilan potturieskaa, kanaa, salaattimix, salsaa, paistettua pekonia ja pikkelsimajoa."
+            "price": "13,90 €"
           },
           {
             "title": "Pasta bolognese",
@@ -2282,8 +2253,7 @@
               "G",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Kurpitsa-perunasosetta, pariloituja herkkusieniä & paprikaa sekä paahdettu lintuliemi."
+            "price": "13,90 €"
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2296,31 +2266,20 @@
         ],
         "4": [
           {
-            "title": "Perjantain spessu  -  mausteinen biryani riisi - possu tai kana",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "15,00 €",
-            "desc": "Biryani on mausteinen Basmatiriisii-ruoka, jonka kanssa tarjoamme mm. kananmunaa, tuoreita yrttejä ja paahdettuja Edamame-papuja. Valitse lisukkeeksi Los Pollos Grillikanaa tai miedossa leppäsavussa kokonaisena palvattua possua."
-          },
-          {
             "title": "Suomen parasta grillikanaa avotuligrillistä",
             "diets": [
               "G",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Ranskalaisia ja salaattia & savupaprikakastiketta sekä paahdettu lintuliemi"
+            "price": "13,90 €"
           },
           {
-            "title": "Mozzarella kanatasku",
+            "title": "Kanatasku",
             "diets": [
               "PG",
               "L"
             ],
-            "price": "13,90 €",
-            "desc": "Pariloidun ohutrieskan kera kotimaista kananpoikaa, salaattia, salsaa ja sipuli-paprikapaistosta & sulaa mozzarellajuustoa"
+            "price": "13,90 €"
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -2329,14 +2288,6 @@
             ],
             "price": "13,90 €",
             "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
-          },
-          {
-            "title": "Karjalanpaisti",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "13,90 €"
           }
         ]
       }
