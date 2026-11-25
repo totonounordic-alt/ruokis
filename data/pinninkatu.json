@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "25.11.2026 klo 19.37",
+  "updated": "25.11.2026 klo 20.13",
   "week": "2026-W48",
   "restaurants": [
     {
@@ -2578,13 +2578,13 @@
         ],
         "3": [
           {
-            "title": "Aasian kanatasku",
+            "title": "Korean kanatasku",
             "diets": [
               "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloidun ohutrieskan kera salaattia, kananpoikaa ja salsaa sekä gochujang-majoneesia, tuoretta chiliä, limeä ja seesaminsiemeniä"
+            "desc": "Chilikanaa ja vihersalaattia pariloidussa ohutrieskassa sekä cochujang-chilimajoa & sesaminsiemenkastikkeella marinoitua tuoretta avocadoa"
           },
           {
             "title": "Pasta bolognese",
@@ -2592,32 +2592,24 @@
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pitkään haudutettua rotukarjan bolognese kastiketta, pastaa, rucolaa ja parmesania."
+            "desc": "Perinteinen naudanliha bolognese kotimaisesta rotukarjasta. rucola-tomaattisalaattia ja parmesania"
           },
           {
-            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "title": "Los pollos grillikanaa avotuligrillistä",
             "diets": [
               "G",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Valkosipuli-kermaperunoita, paistettuja neulapapuja, salaattia ja paahdettu lintuliemi."
+            "desc": "Valkosipuli-kermaperunoita, paistettuja neulapapuja & paahdettua lintulientä sekä salaatti ja pikkelikasvikset"
           },
           {
-            "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
-            "diets": [
-              "L"
-            ],
-            "price": "13,90 €",
-            "desc": "Italialainen leipä jossa pistaasimortadellaa, mozzarellaa, yrttimajoneesia, paahdettuja pinjansiemeniä, rucolaa ja tomaattia"
-          },
-          {
-            "title": "Pulled beef shawarma",
+            "title": "Naudanliha-shawarma",
             "diets": [
               "L"
             ],
             "price": "17,00 €",
-            "desc": "Pariloitu arabianleipä täytettynä ylikypsäksi haudutetulla kotimaisella naudanlihalla ja sipuli-paprikapaistoksella. lisäksi salaattimix, yrtticreme, avokadoa ja tuoretta chiliä."
+            "desc": "Naudan petit tenderillä, chilikastikkeella ja paistetulla sipulilla & paprikalla täytetty ja grillattu shawarma-arabianleipä. lisäksi salaattia, pikkeleitä ja valkosipulikastiketta"
           }
         ],
         "4": [
