@@ -1,6 +1,6 @@
 {
   "site": "pinninkatu",
-  "updated": "26.11.2026 klo 21.10",
+  "updated": "27.11.2026 klo 15.55",
   "week": "2026-W48",
   "restaurants": [
     {
@@ -1006,9 +1006,56 @@
         ],
         "4": [
           {
-            "title": "Päivän lista ei ole saatavilla – katso ravintolan omilta sivuilta",
-            "diets": [],
-            "price": null
+            "title": "Meksikolounas",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "13,70 €",
+            "desc": "Bocadillo paneroidulla kanalla Rapean leivän päällä salaattia, Salsa Rojaa, lämmintä juustokastiketta, Pico de Galloa ja ruohosipulia."
+          },
+          {
+            "title": "Savujuusto-pekoniburger",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "10,00 €",
+            "desc": "Ranskalaiset +2 €, dippi +2 €."
+          },
+          {
+            "title": "Lounasburgerit",
+            "diets": [
+              "PG"
+            ],
+            "price": "12,90 €",
+            "desc": "Kana / kasvis (tupla 15,40 €)"
+          },
+          {
+            "title": "Lounasburgerit",
+            "diets": [
+              "PG"
+            ],
+            "price": "13,70 €",
+            "desc": "Juusto / pekoni / chili / valkosipuli (tupla 16,50 €)"
+          },
+          {
+            "title": "Parilalounas",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "14,90 €",
+            "desc": "Broilerin rintafilee / porsaan lehtipihvi Kermainen pippurikastike ja grillikasvikset."
+          },
+          {
+            "title": "Panchon poke",
+            "diets": [
+              "PG",
+              "L"
+            ],
+            "price": "14,50 €",
+            "desc": "Ylikypsä porsaankylki / paneroitu kana / chevre / lohi (+2,50 €) Salaattisekoitusta, yrttiöljyä, Pico de Galloa, maissiriisiä, kurkkua, marinoitua punasipulia, Chef’s Bbq, nachoja ja ruohosipulia."
           }
         ]
       }
@@ -2152,13 +2199,15 @@
           {
             "title": "Vegaani lounas",
             "diets": [
+              "G",
               "M"
             ],
             "price": "9,60 €",
             "parts": [
               {
-                "title": "Uuniperunaa BBQ-maustetulla tofutäytteellä",
+                "title": "Falafel pyörykät ja BBQ-majoneesia",
                 "diets": [
+                  "G",
                   "M"
                 ]
               }
@@ -2182,23 +2231,6 @@
             ]
           },
           {
-            "title": "Lounas",
-            "diets": [
-              "G",
-              "L"
-            ],
-            "price": "9,60 €",
-            "parts": [
-              {
-                "title": "Broileria Tikka Masala ja Basmatiriisiä",
-                "diets": [
-                  "G",
-                  "L"
-                ]
-              }
-            ]
-          },
-          {
             "title": "Keitto-vegaani",
             "diets": [
               "G",
@@ -2212,17 +2244,6 @@
                   "G",
                   "M"
                 ]
-              }
-            ]
-          },
-          {
-            "title": "Napas",
-            "diets": [],
-            "price": null,
-            "parts": [
-              {
-                "title": "Napas",
-                "diets": []
               }
             ]
           },
@@ -2261,7 +2282,7 @@
             "price": "1,30 €",
             "parts": [
               {
-                "title": "Banaani-marjasmoothieta",
+                "title": "Suklaamousse",
                 "diets": [
                   "G",
                   "L"
@@ -2719,22 +2740,22 @@
         ],
         "4": [
           {
-            "title": "Suomen parasta grillikanaa avotuligrillistä",
+            "title": "Los pollos grillikanaa avotuligrillistä",
             "diets": [
               "G",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Kanagrillissä kypsytettyjä pikku kuoriperunoita, salaattia, pikkelikasviksia ja paahdettu lintuliemi."
+            "desc": "Frittiperunat & savupaprikamajoneesi sekä salaattia, pikkelikasviksia ja paahdettu lintuliemi."
           },
           {
-            "title": "Romesco-kanatasku",
+            "title": "Kanatasku",
             "diets": [
               "PG",
               "L"
             ],
             "price": "13,90 €",
-            "desc": "Pariloidun penttilän potturieskan kera kanaa, salaattia, salsaa, manteleista, paprikoista ja sipuleita valmistettua romesco-kastiketta ja olutpaneroituja sipulirenkaita."
+            "desc": "Pariloitu ohutrieska, salaattia, tuoreista kasviksista & manteleista valmistettua romesco-kastiketta sekä olutpaneroituja sipulirenkaita."
           },
           {
             "title": "Panino con mortadella ai pistacchi e mozzarella - mortadela panini",
@@ -4085,7 +4106,7 @@
             "price": null,
             "parts": [
               {
-                "title": "Jauhelihakebakoita",
+                "title": "Jauhelihakebakoita 3 kpl / extra",
                 "diets": [
                   "L",
                   "M"
